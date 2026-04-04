@@ -1,21 +1,46 @@
 export default function Contact({ config }: { config: any }) {
   return (
-    <section id="iletisim" className="py-16 md:py-24 px-4 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <h3 className="text-3xl md:text-4xl font-bold text-center mb-12" style={{color:'var(--secondary)'}}>İletişim</h3>
-        <div className="grid md:grid-cols-2 gap-12">
-          <div className="space-y-6">
-            <div className="flex items-start gap-4"><span className="text-2xl">📍</span><div><p className="font-semibold">Adres</p><p className="text-gray-600">{config.business.address}</p></div></div>
-            {config.business.phone&&<div className="flex items-start gap-4"><span className="text-2xl">📞</span><div><p className="font-semibold">Telefon</p><a href={`tel:${config.business.phone}`} className="text-gray-600 hover:underline">{config.business.phone}</a></div></div>}
-            {config.business.googleRating>0&&<div className="flex items-start gap-4"><span className="text-2xl">⭐</span><div><p className="font-semibold">Google</p><p className="text-gray-600">{config.business.googleRating}/5 ({config.business.reviewCount} yorum)</p></div></div>}
+    <section id="iletisim" className="section-padding bg-gray-50">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center">
+          <h3 className="section-title">İletişim</h3>
+          <p className="section-subtitle">Sorularınız için bize ulaşın</p>
+        </div>
+        <div className="grid lg:grid-cols-5 gap-8">
+          <div className="lg:col-span-2 space-y-6">
+            {[
+              { icon: '📍', label: 'Adres', value: config.business.address },
+              { icon: '📞', label: 'Telefon', value: config.business.phone, href: `tel:${config.business.phone}` },
+              { icon: '✉️', label: 'E-posta', value: config.business.email, href: `mailto:${config.business.email}` },
+            ].filter(i => i.value).map((item, i) => (
+              <div key={i} className="flex items-start gap-4 p-4 card rounded-xl">
+                <span className="text-2xl">{item.icon}</span>
+                <div>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">{item.label}</p>
+                  {item.href ? <a href={item.href} className="font-medium hover:underline" style={{ color: 'var(--primary)' }}>{item.value}</a> : <p className="font-medium text-gray-700">{item.value}</p>}
+                </div>
+              </div>
+            ))}
+            {config.business.googleRating > 0 && (
+              <div className="flex items-center gap-3 p-4 card rounded-xl">
+                <span className="text-2xl">⭐</span>
+                <div>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Google Puanı</p>
+                  <p className="font-bold text-lg" style={{ color: 'var(--primary)' }}>{config.business.googleRating}/5 <span className="text-sm font-normal text-gray-400">({config.business.reviewCount} yorum)</span></p>
+                </div>
+              </div>
+            )}
           </div>
-          <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100">
-            <h4 className="font-semibold mb-4">Bize Ulaşın</h4>
+          <div className="lg:col-span-3 card p-8">
+            <h4 className="font-bold text-xl mb-6" style={{ color: 'var(--secondary)' }}>Bize Mesaj Gönderin</h4>
             <form className="space-y-4">
-              <input type="text" placeholder="Adınız" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-blue-400"/>
-              <input type="tel" placeholder="Telefon" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-blue-400"/>
-              <textarea placeholder="Mesajınız" rows={3} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-blue-400"/>
-              <button type="button" className="btn-primary w-full">Gönder</button>
+              <div className="grid sm:grid-cols-2 gap-4">
+                <input type="text" placeholder="Adınız Soyadınız" className="w-full px-5 py-3.5 rounded-xl border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 outline-none transition"/>
+                <input type="tel" placeholder="Telefon Numaranız" className="w-full px-5 py-3.5 rounded-xl border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 outline-none transition"/>
+              </div>
+              <input type="email" placeholder="E-posta Adresiniz" className="w-full px-5 py-3.5 rounded-xl border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 outline-none transition"/>
+              <textarea placeholder="Mesajınız..." rows={4} className="w-full px-5 py-3.5 rounded-xl border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 outline-none transition resize-none"/>
+              <button type="button" className="btn-primary w-full text-lg py-4">Mesaj Gönder</button>
             </form>
           </div>
         </div>

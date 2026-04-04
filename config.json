@@ -1,40 +1,57 @@
 {
   "business": {
-    "name": "Demo İşletme",
-    "sector": "restoran",
-    "slogan": "Lezzetin Adresi",
-    "phone": "0212 000 00 00",
+    "name": "Alp Ağız ve Diş Sağlığı Merkezi",
+    "sector": "klinik",
+    "slogan": "Sarıyer'de modern teknoloji ve uzman doktor kadromuzla tüm dental ihtiyaçlarınız için güvenilir adres. İmplant, ortodonti ve estetik diş hekimliğinde kaliteli hizmet.",
+    "phone": "",
     "address": "Sarıyer, İstanbul",
-    "email": "info@demo.com",
-    "googleRating": 4.5,
-    "reviewCount": 120,
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
     "googleMapsUrl": ""
   },
   "design": {
-    "primaryColor": "#e63946",
-    "secondaryColor": "#1d3557",
-    "accentColor": "#f1faee",
+    "primaryColor": "#0E3293",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#00B4A6",
     "fontFamily": "Inter",
     "heroLayout": "centered"
   },
   "content": {
-    "heroTitle": "Hoş Geldiniz",
-    "heroSubtitle": "Eşsiz lezzetler ve unutulmaz anlar için buradayız",
-    "aboutText": "Yıllardır misafirlerimize en taze malzemelerle hazırlanan özel lezzetlerimizi sunuyoruz.",
+    "heroTitle": "Sağlıklı Gülüşünüz İçin Profesyonel Diş Bakımı",
+    "heroSubtitle": "Sarıyer'de modern teknoloji ve uzman doktor kadromuzla tüm dental ihtiyaçlarınız için güvenilir adres. İmplant, ortodonti ve estetik diş hekimliğinde kaliteli hizmet.",
+    "aboutText": "Alp Ağız ve Diş Sağlığı Merkezi olarak, 3 uzman doktorumuz ve son teknoloji ekipmanlarımızla hastalarımıza en kaliteli dental bakımı sunuyoruz. Online randevu sistemimiz ve WhatsApp entegrasyonumuz ile size en kolay ulaşım imkanı sağlıyoruz.",
     "services": [
-      { "title": "Özel Menü", "description": "Mevsimlik taze malzemelerle hazırlanan zengin menümüz" },
-      { "title": "Rezervasyon", "description": "Özel günleriniz için önceden masa ayırtın" },
-      { "title": "Paket Servis", "description": "Lezzetlerimizi evinize kadar getiriyoruz" }
+      {
+        "title": "Dental İmplant",
+        "description": "Eksik dişlerinizi doğal görünümlü ve kalıcı implantlarla tamamlayın. Uzman doktorlarımız ile güvenli implant tedavisi."
+      },
+      {
+        "title": "Ortodonti Tedavisi",
+        "description": "Çarpık dişlerinizi düzeltin, ideal gülüşe kavuşun. Modern ortodontik yöntemlerle estetik ve fonksiyonel çözümler."
+      },
+      {
+        "title": "Estetik Diş Hekimliği",
+        "description": "Gülüşünüzü güzelleştiren porselen laminate, diş beyazlatma ve estetik dolgular ile hayalinizdeki gülüşe sahip olun."
+      },
+      {
+        "title": "Genel Diş Tedavileri",
+        "description": "Rutin kontroller, diş çekimi, kanal tedavisi ve ağız bakımı hizmetleri ile diş sağlığınızı koruyun."
+      },
+      {
+        "title": "Çocuk Diş Hekimliği",
+        "description": "Çocuklarınızın diş sağlığı için özel yaklaşım. Koruyucu tedaviler ve çocuk dostu ortamımızla güvenli bakım."
+      },
+      {
+        "title": "Ağız ve Diş Cerrahisi",
+        "description": "Gömük diş çekimi, kist operasyonları ve oral cerrahi işlemleriniz için deneyimli cerrahlarımız hizmetinizde."
+      }
     ],
-    "testimonials": [
-      { "name": "Ahmet Y.", "text": "Harika bir deneyimdi, kesinlikle tekrar geleceğiz!", "rating": 5 },
-      { "name": "Elif K.", "text": "Lezzetler muhteşem, personel çok ilgili.", "rating": 5 }
-    ],
-    "ctaText": "Hemen rezervasyon yapın",
-    "ctaButton": "Bizi Arayın"
+    "ctaText": "Diş sağlığınızı ertelemeyin! Uzman doktorlarımızdan randevu alın ve sağlıklı gülüşünüze kavuşun.",
+    "ctaButton": "Hemen Randevu Al"
   },
   "meta": {
-    "title": "Demo İşletme | Restoran",
-    "description": "Sarıyer'in en sevilen restoranı"
+    "title": "Alp Ağız ve Diş Sağlığı Merkezi | klinik",
+    "description": "Alp Ağız ve Diş Sağlığı Merkezi olarak, 3 uzman doktorumuz ve son teknoloji ekipmanlarımızla hastalarımıza en kaliteli dental bakımı sunuyoruz. Online randevu sistemimiz ve WhatsApp entegrasyonumuz ile size en kolay ulaşım imkanı sağlıyoruz."
   }
 }

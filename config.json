@@ -1,40 +1,49 @@
 {
   "business": {
-    "name": "Demo İşletme",
-    "sector": "restoran",
-    "slogan": "Lezzetin Adresi",
-    "phone": "0212 000 00 00",
-    "address": "Sarıyer, İstanbul",
-    "email": "info@demo.com",
-    "googleRating": 4.5,
-    "reviewCount": 120,
+    "name": "Alp Dental",
+    "sector": "klinik",
+    "slogan": "Sarıyer'de modern diş hekimliği hizmetleriyle sağlıklı ve güzel dişlere kavuşun. Uzman kadromuzla size özel tedavi planları sunuyoruz.",
+    "phone": "0212 999 99 99",
+    "address": "Sariyer, Istanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
     "googleMapsUrl": ""
   },
   "design": {
-    "primaryColor": "#e63946",
-    "secondaryColor": "#1d3557",
-    "accentColor": "#f1faee",
+    "primaryColor": "#2B5A87",
+    "secondaryColor": "#F8FAFE",
+    "accentColor": "#4A90C2",
     "fontFamily": "Inter",
     "heroLayout": "centered"
   },
   "content": {
-    "heroTitle": "Hoş Geldiniz",
-    "heroSubtitle": "Eşsiz lezzetler ve unutulmaz anlar için buradayız",
-    "aboutText": "Yıllardır misafirlerimize en taze malzemelerle hazırlanan özel lezzetlerimizi sunuyoruz.",
+    "heroTitle": "Gülüşünüzün Güvencesi Alp Dental",
+    "heroSubtitle": "Sarıyer'de modern diş hekimliği hizmetleriyle sağlıklı ve güzel dişlere kavuşun. Uzman kadromuzla size özel tedavi planları sunuyoruz.",
+    "aboutText": "Alp Dental olarak, hasta memnuniyetini ön planda tutarak en güncel teknolojiler ve sterilizasyon standartları ile hizmet veriyoruz. Deneyimli diş hekimi kadromuz, her yaştan hastamıza güvenilir ve kaliteli tedavi seçenekleri sunmaktadır.",
     "services": [
-      { "title": "Özel Menü", "description": "Mevsimlik taze malzemelerle hazırlanan zengin menümüz" },
-      { "title": "Rezervasyon", "description": "Özel günleriniz için önceden masa ayırtın" },
-      { "title": "Paket Servis", "description": "Lezzetlerimizi evinize kadar getiriyoruz" }
+      {
+        "title": "Genel Diş Tedavisi",
+        "description": "Rutin kontroller, dolgu tedavileri, diş çekimi ve ağız bakımı hizmetleri ile diş sağlığınızı koruyoruz."
+      },
+      {
+        "title": "Estetik Diş Hekimliği",
+        "description": "Diş beyazlatma, porselen laminat veneer ve estetik dolgular ile gülüşünüzü güzelleştiriyoruz."
+      },
+      {
+        "title": "İmplant Tedavisi",
+        "description": "Kayıp dişlerinizi en doğal görünümde restore etmek için modern implant sistemleri kullanıyoruz."
+      },
+      {
+        "title": "Ortodonti",
+        "description": "Tel tedavi ve şeffaf plaklar ile dişlerinizi düzeltip ideal gülüş hattına kavuşturuyoruz."
+      }
     ],
-    "testimonials": [
-      { "name": "Ahmet Y.", "text": "Harika bir deneyimdi, kesinlikle tekrar geleceğiz!", "rating": 5 },
-      { "name": "Elif K.", "text": "Lezzetler muhteşem, personel çok ilgili.", "rating": 5 }
-    ],
-    "ctaText": "Hemen rezervasyon yapın",
-    "ctaButton": "Bizi Arayın"
+    "ctaText": "Sağlıklı dişler için bugün randevunuzu alın!",
+    "ctaButton": "Hemen Ara: 0212 999 99 99"
   },
   "meta": {
-    "title": "Demo İşletme | Restoran",
-    "description": "Sarıyer'in en sevilen restoranı"
+    "title": "Alp Dental | klinik",
+    "description": "Alp Dental olarak, hasta memnuniyetini ön planda tutarak en güncel teknolojiler ve sterilizasyon standartları ile hizmet veriyoruz. Deneyimli diş hekimi kadromuz, her yaştan hastamıza güvenilir ve kaliteli tedavi seçenekleri sunmaktadır."
   }
 }

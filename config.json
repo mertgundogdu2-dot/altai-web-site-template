@@ -15,7 +15,8 @@
     "secondaryColor": "#1d3557",
     "accentColor": "#f1faee",
     "fontFamily": "Inter",
-    "heroLayout": "centered"
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80"
   },
   "content": {
     "heroTitle": "Hoş Geldiniz",
@@ -31,7 +32,8 @@
       { "name": "Elif K.", "text": "Lezzetler muhteşem, personel çok ilgili.", "rating": 5 }
     ],
     "ctaText": "Hemen rezervasyon yapın",
-    "ctaButton": "Bizi Arayın"
+    "ctaButton": "Bizi Arayın",
+    "sectorData": {}
   },
   "meta": {
     "title": "Demo İşletme | Restoran",

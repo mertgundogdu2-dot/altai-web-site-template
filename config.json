@@ -1,0 +1,40 @@
+{
+  "business": {
+    "name": "Demo İşletme",
+    "sector": "restoran",
+    "slogan": "Lezzetin Adresi",
+    "phone": "0212 000 00 00",
+    "address": "Sarıyer, İstanbul",
+    "email": "info@demo.com",
+    "googleRating": 4.5,
+    "reviewCount": 120,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#e63946",
+    "secondaryColor": "#1d3557",
+    "accentColor": "#f1faee",
+    "fontFamily": "Inter",
+    "heroLayout": "centered"
+  },
+  "content": {
+    "heroTitle": "Hoş Geldiniz",
+    "heroSubtitle": "Eşsiz lezzetler ve unutulmaz anlar için buradayız",
+    "aboutText": "Yıllardır misafirlerimize en taze malzemelerle hazırlanan özel lezzetlerimizi sunuyoruz.",
+    "services": [
+      { "title": "Özel Menü", "description": "Mevsimlik taze malzemelerle hazırlanan zengin menümüz" },
+      { "title": "Rezervasyon", "description": "Özel günleriniz için önceden masa ayırtın" },
+      { "title": "Paket Servis", "description": "Lezzetlerimizi evinize kadar getiriyoruz" }
+    ],
+    "testimonials": [
+      { "name": "Ahmet Y.", "text": "Harika bir deneyimdi, kesinlikle tekrar geleceğiz!", "rating": 5 },
+      { "name": "Elif K.", "text": "Lezzetler muhteşem, personel çok ilgili.", "rating": 5 }
+    ],
+    "ctaText": "Hemen rezervasyon yapın",
+    "ctaButton": "Bizi Arayın"
+  },
+  "meta": {
+    "title": "Demo İşletme | Restoran",
+    "description": "Sarıyer'in en sevilen restoranı"
+  }
+}

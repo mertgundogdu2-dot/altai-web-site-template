@@ -1,4 +1,4 @@
-import { loadConfig, listDemos } from '../../lib/loadConfig';
+import { loadConfig } from '../../lib/loadConfig';
 import Header from '../../components/Header';
 import Hero from '../../components/Hero';
 import Services from '../../components/Services';
@@ -6,14 +6,13 @@ import Reviews from '../../components/Reviews';
 import CTA from '../../components/CTA';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
-// Sektor ozel bilesenler
 import RestaurantSection from '../../components/sectors/RestaurantSection';
 import ClinicSection from '../../components/sectors/ClinicSection';
 import RealEstateSection from '../../components/sectors/RealEstateSection';
 
-export async function generateStaticParams() {
-  return listDemos().map(demo => ({ demo }));
-}
+// SSR — her istek runtime'da config okur
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default function DemoPage({ params }: { params: { demo: string } }) {
   const config = loadConfig(params.demo);
@@ -23,7 +22,6 @@ export default function DemoPage({ params }: { params: { demo: string } }) {
     <main>
       <Header config={config} />
       <Hero config={config} />
-      {/* Sektore ozel bilesenler */}
       {(sector.includes('restoran') || sector.includes('kafe') || sector.includes('cafe')) && <RestaurantSection config={config} />}
       {(sector.includes('klinik') || sector.includes('dis') || sector.includes('saglik') || sector.includes('doktor')) && <ClinicSection config={config} />}
       {(sector.includes('emlak') || sector.includes('gayrimenkul')) && <RealEstateSection config={config} />}

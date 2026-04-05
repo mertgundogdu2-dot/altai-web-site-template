@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { getSectorImage } from "@/lib/sectorImages";
 
 export default function EcommerceSection({ config }: { config: any }) {
   const sd = config.content.sectorData || {};
@@ -18,8 +19,8 @@ export default function EcommerceSection({ config }: { config: any }) {
           {products.map((p: any, i: number) => (
             <motion.div key={i} initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}
               className="group rounded-2xl bg-white border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="aspect-square relative" style={{ background: `linear-gradient(135deg, ${pc}08, ${pc}15)` }}>
-                <div className="absolute inset-0 flex items-center justify-center text-5xl opacity-40 group-hover:scale-110 transition-transform duration-300">🛍️</div>
+              <div className="aspect-square overflow-hidden">
+                <img src={p.image || getSectorImage("eticaret", i)} alt={p.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
               </div>
               <div className="p-4">
                 <h4 className="font-semibold text-sm mb-1" style={{ color: config.design.secondaryColor }}>{p.title}</h4>

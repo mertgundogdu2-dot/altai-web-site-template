@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { getSectorImage } from "@/lib/sectorImages";
 
 export default function RealEstateSection({ config }: { config: any }) {
   const properties = config.content.sectorData?.properties || [];
@@ -13,20 +14,23 @@ export default function RealEstateSection({ config }: { config: any }) {
           <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wider uppercase" style={{ background: `${pc}10`, color: pc }}>Portföy</span>
           <h3 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight" style={{ color: config.design.secondaryColor }}>Öne Çıkan İlanlar</h3>
         </motion.div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map((p: any, i: number) => (
             <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
               className="group rounded-2xl bg-white border border-gray-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              <div className="h-48 relative" style={{ background: `linear-gradient(135deg, ${pc}15, ${config.design.secondaryColor}15)` }}>
-                <div className="absolute inset-0 flex items-center justify-center text-5xl opacity-30">🏠</div>
+              <div className="h-56 relative overflow-hidden">
+                <img
+                  src={p.image || getSectorImage("emlak", i)}
+                  alt={p.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                 <span className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-semibold text-white" style={{ background: pc }}>{p.type}</span>
+                <span className="absolute bottom-3 right-3 px-3 py-1.5 rounded-lg text-sm font-bold text-white backdrop-blur-sm bg-black/30">{p.price}</span>
               </div>
-              <div className="p-6">
-                <h4 className="font-bold text-lg mb-2" style={{ color: config.design.secondaryColor }}>{p.title}</h4>
-                <div className="flex items-center justify-between">
-                  <span className="text-gray-400 text-sm">{p.area}</span>
-                  <span className="font-bold text-lg" style={{ color: pc }}>{p.price}</span>
-                </div>
+              <div className="p-5">
+                <h4 className="font-bold text-lg mb-1" style={{ color: config.design.secondaryColor }}>{p.title}</h4>
+                <span className="text-gray-400 text-sm">{p.area}</span>
               </div>
             </motion.div>
           ))}

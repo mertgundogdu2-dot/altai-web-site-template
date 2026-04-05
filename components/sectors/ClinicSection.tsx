@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { getSectorImage } from "@/lib/sectorImages";
 
 export default function ClinicSection({ config }: { config: any }) {
   const sd = config.content.sectorData || {};
@@ -7,6 +8,7 @@ export default function ClinicSection({ config }: { config: any }) {
   const doctors = sd.doctors || [];
   if (!specialties.length && !doctors.length) return null;
   const pc = config.design.primaryColor;
+  const sector = (config.business.sector || "").toLowerCase().includes("dis") ? "disci" : "klinik";
 
   return (
     <section className="py-24 md:py-32 px-4 md:px-8 bg-gray-50/50 relative overflow-hidden">
@@ -20,12 +22,18 @@ export default function ClinicSection({ config }: { config: any }) {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
               {specialties.map((s: any, i: number) => (
                 <motion.div key={i} initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
-                  className="p-6 rounded-2xl bg-white border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center">
-                  <div className="w-16 h-16 rounded-2xl mx-auto mb-4 flex items-center justify-center text-3xl" style={{ background: `${pc}10` }}>
-                    {["🦷", "💉", "🏥", "🩺", "👁️", "🫀", "🧬", "💊"][i % 8]}
+                  className="group rounded-2xl bg-white border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <div className="aspect-[3/2] overflow-hidden">
+                    <img
+                      src={s.image || getSectorImage(sector, i)}
+                      alt={s.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
                   </div>
-                  <h4 className="font-bold mb-2" style={{ color: config.design.secondaryColor }}>{s.title}</h4>
-                  <p className="text-gray-400 text-sm leading-relaxed">{s.description}</p>
+                  <div className="p-5 text-center">
+                    <h4 className="font-bold mb-2" style={{ color: config.design.secondaryColor }}>{s.title}</h4>
+                    <p className="text-gray-400 text-sm leading-relaxed">{s.description}</p>
+                  </div>
                 </motion.div>
               ))}
             </div>
@@ -39,9 +47,13 @@ export default function ClinicSection({ config }: { config: any }) {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {doctors.map((d: any, i: number) => (
                 <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
-                  className="flex items-center gap-4 p-5 rounded-2xl bg-white border border-gray-100 hover:shadow-md transition-all duration-300">
-                  <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0" style={{ background: `linear-gradient(135deg, ${pc}, ${pc}CC)` }}>
-                    {d.name?.split(" ").pop()?.[0] || "D"}
+                  className="group flex items-center gap-5 p-5 rounded-2xl bg-white border border-gray-100 hover:shadow-md transition-all duration-300">
+                  <div className="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0">
+                    <img
+                      src={d.image || `https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&h=200&fit=crop&q=80`}
+                      alt={d.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <h4 className="font-bold" style={{ color: config.design.secondaryColor }}>{d.name}</h4>

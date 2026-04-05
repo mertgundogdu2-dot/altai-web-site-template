@@ -26,31 +26,31 @@ export interface SiteConfig {
     heroTitle: string;
     heroSubtitle: string;
     aboutText: string;
-    services: Array<{ title: string; description: string }>;
+    services: Array<{ title: string; description: string; image?: string }>;
     testimonials: Array<{ name: string; text: string; rating: number }>;
     ctaText: string;
     ctaButton: string;
     sectorData?: {
       // Restaurant/Cafe
-      menu?: Array<{ title: string; description: string; price: string }>;
+      menu?: Array<{ title: string; description: string; price: string; image?: string }>;
       // Clinic/Dentist
-      specialties?: Array<{ title: string; description: string }>;
-      doctors?: Array<{ name: string; specialty: string }>;
+      specialties?: Array<{ title: string; description: string; image?: string }>;
+      doctors?: Array<{ name: string; specialty: string; image?: string }>;
       // Real Estate
-      properties?: Array<{ title: string; type: string; area: string; price: string }>;
+      properties?: Array<{ title: string; type: string; area: string; price: string; image?: string }>;
       // Lawyer
-      practiceAreas?: Array<{ title: string; description: string }>;
+      practiceAreas?: Array<{ title: string; description: string; image?: string }>;
       // Beauty/Hair
-      treatments?: Array<{ title: string; description: string; price?: string }>;
+      treatments?: Array<{ title: string; description: string; price?: string; image?: string }>;
       // Hotel
-      rooms?: Array<{ title: string; description: string; price?: string }>;
+      rooms?: Array<{ title: string; description: string; price?: string; image?: string }>;
       amenities?: Array<{ title: string; icon?: string } | string>;
       // Education
-      courses?: Array<{ title: string; description: string; duration?: string }>;
-      programs?: Array<{ title: string; description: string }>;
+      courses?: Array<{ title: string; description: string; duration?: string; image?: string }>;
+      programs?: Array<{ title: string; description: string; image?: string }>;
       // E-commerce
-      products?: Array<{ title: string; price?: string }>;
-      categories?: Array<{ title: string }>;
+      products?: Array<{ title: string; price?: string; image?: string }>;
+      categories?: Array<{ title: string; image?: string }>;
       // Carousel/Gallery
       gallery?: Array<{ image?: string; title: string; description?: string }>;
       carousel?: Array<{ image?: string; title: string; description?: string }>;

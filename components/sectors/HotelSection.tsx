@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { getSectorImage } from "@/lib/sectorImages";
 
 export default function HotelSection({ config }: { config: any }) {
   const sd = config.content.sectorData || {};
@@ -20,9 +21,10 @@ export default function HotelSection({ config }: { config: any }) {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
               {rooms.map((r: any, i: number) => (
                 <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
-                  className="rounded-3xl bg-white border border-gray-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                  <div className="h-52 relative" style={{ background: `linear-gradient(135deg, ${pc}20, ${config.design.secondaryColor}20)` }}>
-                    <div className="absolute inset-0 flex items-center justify-center text-6xl opacity-30">🛏️</div>
+                  className="group rounded-3xl bg-white border border-gray-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                  <div className="h-56 overflow-hidden relative">
+                    <img src={r.image || getSectorImage("otel", i)} alt={r.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                   </div>
                   <div className="p-6">
                     <h4 className="font-bold text-lg mb-2" style={{ color: config.design.secondaryColor }}>{r.title}</h4>

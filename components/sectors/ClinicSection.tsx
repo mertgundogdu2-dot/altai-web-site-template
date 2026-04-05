@@ -1,54 +1,58 @@
-export default function ClinicSection({ config }: { config: any }) {
-  const specialties = config.content.sectorData?.specialties || config.content.services || [];
-  const doctors = config.content.sectorData?.doctors || [];
-  return (
-    <>
-      {/* Uzmanlik alanlari */}
-      <section className="py-16 px-4 bg-blue-50/50">
-        <div className="max-w-6xl mx-auto">
-          <h3 className="text-3xl font-bold text-center mb-2" style={{color:'var(--primary)'}}>🏥 Uzmanlık Alanlarımız</h3>
-          <p className="text-center text-gray-500 mb-12">En güncel tedavi yöntemleri ile hizmetinizdeyiz</p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {specialties.map((s: any, i: number) => (
-              <div key={i} className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition border border-blue-100">
-                <div className="text-3xl mb-3">{['🦷','😊','🔬','💎','🩺','⚕️'][i%6]}</div>
-                <h4 className="font-semibold mb-2">{s.title}</h4>
-                <p className="text-gray-600 text-sm">{s.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+"use client";
+import { motion } from "framer-motion";
 
-      {/* Doktor profilleri */}
-      {doctors.length > 0 && (
-        <section className="py-16 px-4 bg-white">
-          <div className="max-w-6xl mx-auto">
-            <h3 className="text-3xl font-bold text-center mb-12" style={{color:'var(--secondary)'}}>👨‍⚕️ Uzman Kadromuz</h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {doctors.map((d: any, i: number) => (
-                <div key={i} className="text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
-                  <div className="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl" style={{background:'var(--primary)',color:'white'}}>{d.name?.[0]||'D'}</div>
-                  <h4 className="font-semibold text-lg">{d.name}</h4>
-                  <p className="text-sm" style={{color:'var(--primary)'}}>{d.specialty}</p>
-                </div>
+export default function ClinicSection({ config }: { config: any }) {
+  const sd = config.content.sectorData || {};
+  const specialties = sd.specialties || [];
+  const doctors = sd.doctors || [];
+  if (!specialties.length && !doctors.length) return null;
+  const pc = config.design.primaryColor;
+
+  return (
+    <section className="py-24 md:py-32 px-4 md:px-8 bg-gray-50/50 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto">
+        {specialties.length > 0 && (
+          <>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
+              <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wider uppercase" style={{ background: `${pc}10`, color: pc }}>Uzmanlık Alanları</span>
+              <h3 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight" style={{ color: config.design.secondaryColor }}>Tedavi Alanlarımız</h3>
+            </motion.div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+              {specialties.map((s: any, i: number) => (
+                <motion.div key={i} initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
+                  className="p-6 rounded-2xl bg-white border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center">
+                  <div className="w-16 h-16 rounded-2xl mx-auto mb-4 flex items-center justify-center text-3xl" style={{ background: `${pc}10` }}>
+                    {["🦷", "💉", "🏥", "🩺", "👁️", "🫀", "🧬", "💊"][i % 8]}
+                  </div>
+                  <h4 className="font-bold mb-2" style={{ color: config.design.secondaryColor }}>{s.title}</h4>
+                  <p className="text-gray-400 text-sm leading-relaxed">{s.description}</p>
+                </motion.div>
               ))}
             </div>
-          </div>
-        </section>
-      )}
-
-      {/* Randevu CTA */}
-      <section className="py-12 px-4 bg-blue-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4" style={{color:'var(--secondary)'}}>Online Randevu Alın</h3>
-          <p className="text-gray-600 mb-6">Hemen arayın veya WhatsApp'tan randevunuzu oluşturun</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href={`tel:${config.business.phone}`} className="btn-primary px-8 py-4 text-lg">📞 Hemen Ara</a>
-            <a href={`https://wa.me/${(config.business.phone||'').replace(/\D/g,'')}`} className="px-8 py-4 bg-green-500 text-white rounded-lg font-semibold text-lg hover:bg-green-600 transition">💬 WhatsApp Randevu</a>
-          </div>
-        </div>
-      </section>
-    </>
+          </>
+        )}
+        {doctors.length > 0 && (
+          <>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-12">
+              <h3 className="text-2xl md:text-4xl font-bold tracking-tight" style={{ color: config.design.secondaryColor }}>Uzman Kadromuz</h3>
+            </motion.div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {doctors.map((d: any, i: number) => (
+                <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
+                  className="flex items-center gap-4 p-5 rounded-2xl bg-white border border-gray-100 hover:shadow-md transition-all duration-300">
+                  <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0" style={{ background: `linear-gradient(135deg, ${pc}, ${pc}CC)` }}>
+                    {d.name?.split(" ").pop()?.[0] || "D"}
+                  </div>
+                  <div>
+                    <h4 className="font-bold" style={{ color: config.design.secondaryColor }}>{d.name}</h4>
+                    <p className="text-sm" style={{ color: pc }}>{d.specialty}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+    </section>
   );
 }

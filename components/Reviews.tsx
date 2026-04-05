@@ -1,32 +1,64 @@
+"use client";
+import { InfiniteMovingCards } from "./aceternity/infinite-moving-cards";
+import { motion } from "framer-motion";
+
 export default function Reviews({ config }: { config: any }) {
-  if (!config.content.testimonials?.length) return null;
+  const testimonials = config.content.testimonials || [];
+  if (!testimonials.length) return null;
+
+  const items = testimonials.map((t: any) => ({
+    quote: t.text,
+    name: t.name,
+    rating: t.rating,
+  }));
+
   return (
-    <section id="yorumlar" className="section-padding" style={{ background: 'var(--secondary)' }}>
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center">
-          <h3 className="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Müşterilerimiz Ne Diyor?</h3>
-          <p className="text-white/50 text-lg mb-14">Güvenilir hizmet, mutlu müşteriler</p>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {config.content.testimonials.map((t: any, i: number) => (
-            <div key={i} className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="flex items-center gap-1 mb-4">
-                {[1,2,3,4,5].map(s => (
-                  <svg key={s} width="18" height="18" viewBox="0 0 24 24" fill={s <= t.rating ? '#facc15' : '#374151'}>
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                  </svg>
-                ))}
-              </div>
-              <p className="text-white/85 mb-6 leading-relaxed italic">&ldquo;{t.text}&rdquo;</p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold" style={{ background: 'var(--primary)', color: 'white' }}>
-                  {t.name?.[0]}
-                </div>
-                <span className="text-white/60 font-medium">{t.name}</span>
-              </div>
-            </div>
-          ))}
-        </div>
+    <section
+      id="yorumlar"
+      className="py-24 md:py-32 px-4 md:px-8 relative overflow-hidden"
+      style={{ background: config.design.secondaryColor }}
+    >
+      {/* Radial gradient decoration */}
+      <div
+        className="absolute inset-0 opacity-20 pointer-events-none"
+        style={{
+          background: `radial-gradient(ellipse at 50% 0%, ${config.design.primaryColor}33, transparent 70%)`,
+        }}
+      />
+
+      <div className="max-w-7xl mx-auto relative">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wider uppercase bg-white/10 text-white/70">
+            Müşteri Yorumları
+          </span>
+          <h3 className="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">
+            Müşterilerimiz Ne Diyor?
+          </h3>
+          <p className="text-white/40 text-lg">Güvenilir hizmet, mutlu müşteriler</p>
+        </motion.div>
+
+        <InfiniteMovingCards
+          items={items}
+          direction="left"
+          speed="slow"
+          primaryColor={config.design.primaryColor}
+        />
+
+        {testimonials.length > 2 && (
+          <div className="mt-4">
+            <InfiniteMovingCards
+              items={[...items].reverse()}
+              direction="right"
+              speed="normal"
+              primaryColor={config.design.primaryColor}
+            />
+          </div>
+        )}
       </div>
     </section>
   );

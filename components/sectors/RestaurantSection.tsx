@@ -1,23 +1,30 @@
+"use client";
+import { motion } from "framer-motion";
+
 export default function RestaurantSection({ config }: { config: any }) {
-  const menu = config.content.sectorData?.menu || config.content.services || [];
+  const menu = config.content.sectorData?.menu || [];
+  if (!menu.length) return null;
+  const pc = config.design.primaryColor;
+
   return (
-    <section className="py-16 px-4 bg-amber-50/50">
-      <div className="max-w-6xl mx-auto">
-        <h3 className="text-3xl font-bold text-center mb-2" style={{color:'var(--primary)'}}>🍽️ Menümüz</h3>
-        <p className="text-center text-gray-500 mb-12">Özenle hazırlanan lezzetlerimiz</p>
+    <section className="py-24 md:py-32 px-4 md:px-8 bg-white relative overflow-hidden">
+      <div className="absolute top-0 left-0 w-72 h-72 rounded-full blur-3xl opacity-5 pointer-events-none" style={{ background: pc }} />
+      <div className="max-w-7xl mx-auto">
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
+          <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wider uppercase" style={{ background: `${pc}10`, color: pc }}>Menü</span>
+          <h3 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight" style={{ color: config.design.secondaryColor }}>Lezzetlerimiz</h3>
+        </motion.div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {menu.map((item: any, i: number) => (
-            <div key={i} className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition border border-amber-100">
-              <h4 className="font-semibold text-lg mb-2">{item.title}</h4>
-              <p className="text-gray-600 text-sm">{item.description}</p>
-              {item.price && <p className="mt-3 font-bold" style={{color:'var(--primary)'}}>{item.price}</p>}
-            </div>
+            <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
+              className="group p-6 rounded-2xl bg-white border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div className="flex justify-between items-start mb-3">
+                <h4 className="font-bold text-lg" style={{ color: config.design.secondaryColor }}>{item.title}</h4>
+                <span className="text-lg font-bold whitespace-nowrap ml-4" style={{ color: pc }}>{item.price}</span>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
+            </motion.div>
           ))}
-        </div>
-        <div className="mt-12 text-center">
-          <a href={`https://wa.me/${(config.business.phone||'').replace(/\D/g,'')}`} className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 text-white rounded-lg font-semibold text-lg hover:bg-green-600 transition">
-            💬 WhatsApp ile Rezervasyon
-          </a>
         </div>
       </div>
     </section>

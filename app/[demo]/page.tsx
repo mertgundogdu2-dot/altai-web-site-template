@@ -1,4 +1,5 @@
 import { loadConfig } from '../../lib/loadConfig';
+import { normalizeSector } from '../../lib/sectorImages';
 import Header from '../../components/Header';
 import Hero from '../../components/Hero';
 import About from '../../components/About';
@@ -23,9 +24,25 @@ export const revalidate = 0;
 
 export default function DemoPage({ params }: { params: { demo: string } }) {
   const config = loadConfig(params.demo);
-  const sector = (config.business.sector || '').toLowerCase();
 
-  const is = (...keys: string[]) => keys.some((k) => sector.includes(k));
+  // Demo bulunamadiysa
+  if (!config.business.name || config.business.name === 'Demo Site') {
+    return (
+      <main className="min-h-screen flex items-center justify-center bg-[#0a0a0a] text-white px-6">
+        <div className="text-center max-w-md">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 text-white font-bold text-2xl mb-6 shadow-lg">A</div>
+          <h1 className="text-2xl font-bold mb-3">Demo Hazırlanıyor</h1>
+          <p className="text-white/50 mb-6">Bu demo site henüz oluşturulmamış veya hazırlanma aşamasında.</p>
+          <a href="/" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 transition-colors font-medium">
+            Tüm Demolar
+          </a>
+        </div>
+      </main>
+    );
+  }
+
+  const sector = normalizeSector(config.business.sector || '');
+  const is = (...keys: string[]) => keys.some((k) => sector === k || sector.includes(k));
 
   return (
     <main className="overflow-hidden">

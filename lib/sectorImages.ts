@@ -176,14 +176,71 @@ export function getSectorImage(sectorKey: string, index: number): string {
 }
 
 /**
- * Sektör anahtarını normalize eder.
+ * Turkce karakterleri ASCII'ye cevir.
  */
-export function normalizeSector(sector: string): string {
-  const s = sector.toLowerCase()
+function turkishToAscii(str: string): string {
+  return str.toLowerCase()
     .replace(/[ıİ]/g, 'i').replace(/[şŞ]/g, 's').replace(/[çÇ]/g, 'c')
     .replace(/[üÜ]/g, 'u').replace(/[öÖ]/g, 'o').replace(/[ğĞ]/g, 'g');
-  for (const key of Object.keys(SECTOR_IMAGES)) {
-    if (s.includes(key) || key.includes(s)) return key;
+}
+
+/**
+ * Sektor alias haritasi — tum Turkce varyasyonlar → kanonize anahtar.
+ */
+const SECTOR_ALIASES: Record<string, string> = {
+  // Direkt key'ler
+  restoran: 'restoran', kafe: 'kafe', klinik: 'klinik', disci: 'disci',
+  emlak: 'emlak', avukat: 'avukat', guzellik: 'guzellik', kuafor: 'kuafor',
+  otel: 'otel', egitim: 'egitim', eticaret: 'eticaret',
+  // Dis / Klinik
+  'dis': 'disci', 'dis hekimi': 'disci', 'dis hekimligi': 'disci',
+  'dis klinigi': 'disci', 'dis poliklinigi': 'disci', 'agiz ve dis': 'disci',
+  'ortodonti': 'disci', 'implant': 'disci',
+  'saglik': 'klinik', 'hastane': 'klinik', 'doktor': 'klinik',
+  'poliklinik': 'klinik', 'tip merkezi': 'klinik', 'medikal': 'klinik',
+  // Guzellik / Kuafor
+  'guzellik merkezi': 'guzellik', 'estetik': 'guzellik', 'spa': 'guzellik',
+  'cilt bakimi': 'guzellik', 'medikal estetik': 'guzellik', 'lazer': 'guzellik',
+  'sac tasarim': 'kuafor', 'sac tasarimi': 'kuafor', 'berber': 'kuafor',
+  'kuafor salonu': 'kuafor', 'sac bakim': 'kuafor',
+  // Emlak
+  'gayrimenkul': 'emlak', 'emlakci': 'emlak', 'emlak danismanligi': 'emlak',
+  // Hukuk
+  'hukuk': 'avukat', 'hukuk burosu': 'avukat', 'avukatlik': 'avukat',
+  // Yeme-icme
+  'cafe': 'kafe', 'kahve': 'kafe', 'pastane': 'kafe', 'kahveci': 'kafe',
+  'yemek': 'restoran', 'lokanta': 'restoran', 'fine dining': 'restoran',
+  // Otel
+  'hotel': 'otel', 'konaklama': 'otel', 'pansiyon': 'otel', 'boutique otel': 'otel',
+  // Egitim
+  'kurs': 'egitim', 'okul': 'egitim', 'ozel ders': 'egitim', 'akademi': 'egitim',
+  // E-ticaret
+  'magaza': 'eticaret', 'shop': 'eticaret', 'online magaza': 'eticaret',
+};
+
+/**
+ * Sektor anahtarini normalize eder.
+ * "Diş Hekimliği" → "disci", "Güzellik Merkezi" → "guzellik" vb.
+ */
+export function normalizeSector(sector: string): string {
+  if (!sector) return 'restoran';
+
+  // 1. Zaten clean key mi?
+  if (SECTOR_IMAGES[sector]) return sector;
+
+  // 2. Turkce → ASCII, sonra alias haritasinda ara
+  const ascii = turkishToAscii(sector).trim();
+  if (SECTOR_ALIASES[ascii]) return SECTOR_ALIASES[ascii];
+
+  // 3. Parcali eslestirme — alias icinde input var mi?
+  for (const [alias, key] of Object.entries(SECTOR_ALIASES)) {
+    if (ascii.includes(alias) || alias.includes(ascii)) return key;
   }
+
+  // 4. SECTOR_IMAGES key'lerine dogrudan bak
+  for (const key of Object.keys(SECTOR_IMAGES)) {
+    if (ascii.includes(key) || key.includes(ascii)) return key;
+  }
+
   return 'restoran';
 }

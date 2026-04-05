@@ -1,12 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import { getSectorImage } from "@/lib/sectorImages";
+import { getSectorImage, normalizeSector } from "@/lib/sectorImages";
 
 export default function RestaurantSection({ config }: { config: any }) {
   const menu = config.content.sectorData?.menu || [];
   if (!menu.length) return null;
   const pc = config.design.primaryColor;
-  const sector = (config.business.sector || "").toLowerCase().includes("kafe") ? "kafe" : "restoran";
+  const ns = normalizeSector(config.business.sector || "");
+  const sector = ns === "kafe" ? "kafe" : "restoran";
 
   return (
     <section className="py-24 md:py-32 px-4 md:px-8 bg-white relative overflow-hidden">

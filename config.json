@@ -1,6 +1,6 @@
 {
   "business": {
-    "name": "Demo Site",
+    "name": "",
     "sector": "",
     "slogan": "",
     "phone": "",
@@ -19,13 +19,13 @@
     "heroImage": ""
   },
   "content": {
-    "heroTitle": "Demo Site Bulunamadı",
-    "heroSubtitle": "Bu URL için demo site konfigürasyonu mevcut değil.",
+    "heroTitle": "",
+    "heroSubtitle": "",
     "aboutText": "",
     "services": [],
     "testimonials": [],
-    "ctaText": "Altai Digital ile İletişime Geçin",
-    "ctaButton": "İletişim",
+    "ctaText": "",
+    "ctaButton": "",
     "sectorData": {}
   },
   "meta": {

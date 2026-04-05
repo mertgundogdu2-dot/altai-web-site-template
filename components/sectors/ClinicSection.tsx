@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { getSectorImage } from "@/lib/sectorImages";
+import { getSectorImage, normalizeSector } from "@/lib/sectorImages";
 
 export default function ClinicSection({ config }: { config: any }) {
   const sd = config.content.sectorData || {};
@@ -8,7 +8,8 @@ export default function ClinicSection({ config }: { config: any }) {
   const doctors = sd.doctors || [];
   if (!specialties.length && !doctors.length) return null;
   const pc = config.design.primaryColor;
-  const sector = (config.business.sector || "").toLowerCase().includes("dis") ? "disci" : "klinik";
+  const ns = normalizeSector(config.business.sector || "");
+  const sector = ns === "disci" ? "disci" : "klinik";
 
   return (
     <section className="py-24 md:py-32 px-4 md:px-8 bg-gray-50/50 relative overflow-hidden">

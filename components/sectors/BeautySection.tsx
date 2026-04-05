@@ -1,13 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
-import { getSectorImage } from "@/lib/sectorImages";
+import { getSectorImage, normalizeSector } from "@/lib/sectorImages";
 
 export default function BeautySection({ config }: { config: any }) {
   const sd = config.content.sectorData || {};
   const treatments = sd.treatments || sd.specialties || [];
   if (!treatments.length) return null;
   const pc = config.design.primaryColor;
-  const sector = (config.business.sector || "").toLowerCase().includes("kuafor") ? "kuafor" : "guzellik";
+  const ns = normalizeSector(config.business.sector || "");
+  const sector = ns === "kuafor" ? "kuafor" : "guzellik";
 
   return (
     <section className="py-24 md:py-32 px-4 md:px-8 relative overflow-hidden" style={{ background: `linear-gradient(180deg, white, ${pc}05)` }}>

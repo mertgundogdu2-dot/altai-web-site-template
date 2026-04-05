@@ -1,0 +1,158 @@
+{
+  "business": {
+    "name": "Eva Diş Polikliniği",
+    "sector": "klinik",
+    "slogan": "534 mutlu hasta yorumuyla Kartal'ın en güvenilir diş polikliniği. Modern teknoloji ve uzman kadromuzla sağlıklı, estetik gülüşler yaratıyoruz.",
+    "phone": "0507 991 99 10",
+    "address": "Uğurmumcu, Kartal, İstanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#00A6FB",
+    "secondaryColor": "#1E3A5F",
+    "accentColor": "#E8F4FD",
+    "fontFamily": "Quicksand",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Gülüşünüzü Yeniden Tasarlıyoruz",
+    "heroSubtitle": "534 mutlu hasta yorumuyla Kartal'ın en güvenilir diş polikliniği. Modern teknoloji ve uzman kadromuzla sağlıklı, estetik gülüşler yaratıyoruz.",
+    "aboutText": "Eva Diş Polikliniği olarak 2015 yılından beri Kartal Uğurmumcu'da hizmet veriyoruz. Uluslararası kalite standartlarında, hasta odaklı yaklaşımımızla diş sağlığınızı korumayı ve güzelleştirmeyi hedefliyoruz. Modern teknolojik altyapımız, steril ortamımız ve alanında uzman 8 diş hekimimizle, her yaştan hastamıza özel tedavi planları sunuyoruz. Eva isminin sıcaklığını kliniğimizin her köşesinde hissedecek, endişelerinizden arınmış bir tedavi deneyimi yaşayacaksınız.",
+    "services": [
+      {
+        "title": "İmplant Tedavisi",
+        "description": "Eksik dişlerinizi titanyum implantlarla kalıcı olarak tamamlıyoruz. 3D tomografi ile detaylı planlama yaparak, kemik yapınıza en uygun implant sistemini belirliyoruz. Tek diş eksikliklerinden tam çene rehabilitasyonlarına kadar her türlü implant uygulamasını başarıyla gerçekleştiriyoruz."
+      },
+      {
+        "title": "Gülüş Tasarımı",
+        "description": "Dijital smile design teknolojisiyle hayalinizdeki gülüşü tasarlıyoruz. Yüz hatlarınıza, dudak yapınıza ve kişisel tercihlerinize göre özel planlama yaparak, laminate veneer veya zirkonyum kaplamalarla mükemmel sonuçlar elde ediyoruz."
+      },
+      {
+        "title": "Ortodonti (Tel Tedavisi)",
+        "description": "Çocuk ve yetişkinler için şeffaf plak sistemleri ve estetik braketlerle dişlerinizi düzeltiyoruz. Invisalign sertifikalı doktorlarımız, tedavi sürecini dijital olarak planlayarak size en kısa sürede en iyi sonucu sunuyor. Tedavi boyunca aylık kontroller ve kişiye özel aparey ayarlamalarıyla sürecinizi yakından takip ediyoruz."
+      },
+      {
+        "title": "Diş Beyazlatma",
+        "description": "Profesyonel LED beyazlatma sistemimizle dişlerinizi tek seansta 6-8 ton açıyoruz. Hassasiyet yaratmayan özel jellerimiz ve kişiye özel beyazlatma protokollerimizle güvenli ve kalıcı sonuçlar elde ediyoruz. Ev tipi beyazlatma setlerimizle de tedavinizi destekliyoruz."
+      },
+      {
+        "title": "Kanal Tedavisi",
+        "description": "Mikroskop altında gerçekleştirdiğimiz kanal tedavilerimizde %98 başarı oranına sahibiz. Rotary alet sistemleri ve dijital apex bulucu ile ağrısız, hızlı tedavi sağlıyoruz. Tek seansta bitirebileceğimiz işlemlerle zaman kaybetmeden sağlığınıza kavuşuyorsunuz."
+      },
+      {
+        "title": "Çocuk Diş Hekimliği",
+        "description": "Pedodonti uzmanlarımız, çocuklarınızın diş hekimi korkusunu yenmesi için özel yaklaşımlar geliştiriyor. Renkli dolgular, koruyucu floür uygulamaları ve diş sızdırmazlık işlemleriyle çocuklarınızın diş sağlığını koruyoruz. Oyun alanımız ve çizgi film gösteren tedavi koltuklarımızla tedaviyi eğlenceye dönüştürüyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe Yılmaz",
+        "text": "Yıllardır ertelediğim implant tedavimi Eva Diş'te yaptırdım ve çok memnunum. Doktorlar her aşamayı detaylıca anlattılar, hiç korkmadım. Şimdi rahatça yemek yiyebiliyorum, gülümsemekten çekinmiyorum. Klinik çok temiz ve modern, personel de son derece ilgili. Herkese tavsiye ederim.",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Demir",
+        "text": "Oğlumu diş tedavisi için götürdüğümde çok korkuyordu ama doktorlar o kadar sabırlı ve sevecen davrandılar ki, şimdi kontrollerine severek gidiyor. Oyun alanı ve çizgi filmler sayesinde beklerken bile mutlu oluyor. Eva Diş gerçekten ailemizin güvendiği bir klinik oldu. Fiyatları da gayet makul.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Kaya",
+        "text": "Gülüş tasarımı için gittiğimde hayalimin çok ötesinde bir sonuç elde ettim. Dijital olarak gösterdikleri tasarım aynen uygulandı. Laminate veneerlerim o kadar doğal görünüyor ki kimse fark etmiyor. Dr. Eva ve ekibi gerçekten işinin ehli. Kartal'da böyle bir kliniğin olması büyük şans.",
+        "rating": 5
+      },
+      {
+        "name": "Ali Özkan",
+        "text": "Acil diş ağrısıyla gittiğimde hemen ilgilendiler ve aynı gün kanal tedavimi yaptılar. Mikroskopla çalıştıkları için çok hassas ve başarılı bir tedavi oldu. Hiç ağrı çekmedim. Randevu sistemi çok düzenli, WhatsApp'tan kolayca ulaşabiliyorsunuz. Kesinlikle tavsiye ederim.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Sağlıklı Gülüşünüz İçin Hemen Randevu Alın",
+    "ctaButton": "Ücretsiz Muayene",
+    "sectorData": {
+      "specialties": [
+        {
+          "title": "İmplantoloji",
+          "description": "All-on-4, All-on-6 sistemleri ve kemik grefti uygulamalarıyla en zorlu vakalarda bile başarılı implant tedavileri gerçekleştiriyoruz. Anında yükleme protokolleriyle aynı gün geçici dişlerinizi takabiliyoruz."
+        },
+        {
+          "title": "Estetik Diş Hekimliği",
+          "description": "Kompozit bonding, diş eti estetiği ve Hollywood smile uygulamalarıyla kusursuz gülüşler yaratıyoruz. Dijital fotoğraf analiziyle yüz estetiğinize en uygun tedavi planını oluşturuyoruz."
+        },
+        {
+          "title": "Periodontoloji",
+          "description": "Diş eti hastalıklarının tedavisinde lazer teknolojisi kullanarak ağrısız ve hızlı iyileşme sağlıyoruz. Diş eti çekilmeleri için greft uygulamaları ve regeneratif tedaviler sunuyoruz."
+        },
+        {
+          "title": "Ağız ve Çene Cerrahisi",
+          "description": "Gömülü 20 yaş dişi operasyonları, kist ameliyatları ve çene eklemi tedavilerini uzman cerrahlarımızla güvenle gerçekleştiriyoruz. Sedasyon anestezi seçeneğiyle konforlu operasyon imkanı sunuyoruz."
+        }
+      ],
+      "doctors": [
+        {
+          "name": "Dr. Eva Çelik",
+          "specialty": "İmplantoloji ve Estetik Diş Hekimliği Uzmanı"
+        },
+        {
+          "name": "Dr. Burak Yılmaz",
+          "specialty": "Ortodonti Uzmanı"
+        },
+        {
+          "name": "Dr. Selin Aydın",
+          "specialty": "Pedodonti (Çocuk Diş Hekimliği) Uzmanı"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Temel Bakım",
+          "price": "2.500 TL/ay",
+          "description": "Koruyucu diş sağlığı için ideal",
+          "features": [
+            "Yılda 2 detaylı muayene ve temizlik",
+            "Diş taşı temizliği ve polisaj",
+            "Floür uygulaması",
+            "Ağız bakım eğitimi",
+            "%20 tedavi indirimi"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Aile Paketi",
+          "price": "7.500 TL/ay",
+          "description": "4 kişilik aileler için kapsamlı bakım",
+          "features": [
+            "Tüm aile için sınırsız muayene",
+            "Yılda 4 temizlik ve bakım",
+            "Çocuklar için koruyucu uygulamalar",
+            "Acil durum önceliği",
+            "%30 tedavi indirimi",
+            "Taksit imkanı"
+          ],
+          "popular": true
+        },
+        {
+          "title": "VIP Üyelik",
+          "price": "Özel Fiyat",
+          "description": "Maksimum konfor ve öncelik isteyenler için",
+          "features": [
+            "7/24 acil müdahale hattı",
+            "Sınırsız muayene ve kontrol",
+            "Tüm koruyucu uygulamalar dahil",
+            "Özel VIP tedavi odası",
+            "%50 tedavi indirimi",
+            "Ücretsiz transfer hizmeti",
+            "Yurtdışı sigorta desteği"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Eva Diş Polikliniği | klinik",
+    "description": "Eva Diş Polikliniği olarak 2015 yılından beri Kartal Uğurmumcu'da hizmet veriyoruz. Uluslararası kalite standartlarında, hasta odaklı yaklaşımımızla diş sağlığınızı korumayı ve güzelleştirmeyi hedefliyoruz. Modern teknolojik altyapımız, steril ortamımız ve alanında uzman 8 diş hekimimizle, her yaştan hastamıza özel tedavi planları sunuyoruz. Eva isminin sıcaklığını kliniğimizin her köşesinde hissedecek, endişelerinizden arınmış bir tedavi deneyimi yaşayacaksınız."
+  }
+}

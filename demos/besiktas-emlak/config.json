@@ -1,0 +1,144 @@
+{
+  "business": {
+    "name": "Beşiktaş Emlak",
+    "sector": "emlak",
+    "slogan": "20 yıllık deneyimimizle Beşiktaş'ın en değerli lokasyonlarında, size özel gayrimenkul çözümleri sunuyoruz. Boğaz manzaralı rezidanslardan butik projelere, hayalinizdeki evi bulmanız için buradayız.",
+    "phone": "",
+    "address": "",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#1B4965",
+    "secondaryColor": "#F5F5F5",
+    "accentColor": "#FF6B35",
+    "fontFamily": "DM Sans",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Beşiktaş'ta Hayalinizdeki Eve Bir Adım Daha Yakınsınız",
+    "heroSubtitle": "20 yıllık deneyimimizle Beşiktaş'ın en değerli lokasyonlarında, size özel gayrimenkul çözümleri sunuyoruz. Boğaz manzaralı rezidanslardan butik projelere, hayalinizdeki evi bulmanız için buradayız.",
+    "aboutText": "Beşiktaş Emlak olarak 2005 yılından bu yana İstanbul'un kalbi Beşiktaş'ta gayrimenkul sektöründe öncü hizmetler sunuyoruz. Müşterilerimizin hayallerini gerçeğe dönüştürmek için çalışan 25 kişilik uzman ekibimizle, her yıl 500'den fazla aileyi hayallerindeki evle buluşturuyoruz. Gelişmiş AI destekli müşteri eşleştirme sistemimiz sayesinde, tam aradığınız kriterlere uygun gayrimenkulü bulmanız artık çok daha kolay. WhatsApp üzerinden 7/24 ulaşabileceğiniz danışmanlarımız, sanal tur teknolojimiz ve otomatik SEO blog sistemimizle sektörde fark yaratıyoruz. Beşiktaş'ın her sokağını, her mahallesini tanıyan ekibimizle, sadece ev satmıyor, yaşam alanları yaratıyoruz.",
+    "services": [
+      {
+        "title": "AI Destekli Müşteri Eşleştirme",
+        "description": "Gelişmiş yapay zeka algoritmalarımız, bütçeniz, lokasyon tercihiniz ve yaşam tarzınıza en uygun gayrimenkulleri saniyeler içinde analiz eder. Sistem, geçmiş tercihlerinizi öğrenerek size özel öneriler sunar ve zaman kaybetmeden hayalinizdeki eve ulaşmanızı sağlar."
+      },
+      {
+        "title": "360° Sanal Tur ve AI Açıklama",
+        "description": "Evden çıkmadan, istediğiniz gayrimenkulü 360 derece sanal turla gezebilirsiniz. Yapay zeka destekli açıklama sistemimiz, her odanın özelliklerini detaylı olarak anlatır ve merak ettiğiniz tüm soruları anında yanıtlar."
+      },
+      {
+        "title": "WhatsApp Business Entegrasyonu",
+        "description": "7/24 aktif WhatsApp hattımızdan anında iletişime geçebilir, ilan detaylarını alabilir ve randevu oluşturabilirsiniz. Otomatik yanıt sistemimiz sayesinde gece gündüz demeden sorularınıza hızlı cevaplar alırsınız."
+      },
+      {
+        "title": "Telegram İlan Botu",
+        "description": "Özel Telegram botumuz, belirlediğiniz kriterlere uygun yeni ilanları anında size bildirir. Fiyat düşüşleri, yeni eklenen ilanlar ve fırsat gayrimenkullerden ilk siz haberdar olursunuz. Rakiplerinizden bir adım önde olmanın keyfini yaşayın."
+      },
+      {
+        "title": "CRM ve Takip Otomasyonu",
+        "description": "Müşteri ilişkileri yönetim sistemimiz, her görüşmenizi, talebinizi ve süreç detaylarını kayıt altına alır. Otomatik hatırlatmalar, dönemsel bilgilendirmeler ve kişiselleştirilmiş hizmet anlayışımızla fark yaratıyoruz."
+      },
+      {
+        "title": "Otomatik SEO Blog Sistemi",
+        "description": "Yapay zeka destekli blog sistemimiz, Beşiktaş'taki emlak trendleri, mahalle analizleri ve yatırım fırsatları hakkında güncel içerikler üretir. Doğru bilgiye hızlı ulaşarak, bilinçli gayrimenkul kararları almanızı sağlarız."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Zeynep Kaya",
+        "text": "Beşiktaş Emlak ile tanışmam hayatımın dönüm noktası oldu. AI eşleştirme sistemi sayesinde tam bütçeme uygun, Akaretler'de muhteşem bir daire buldum. WhatsApp üzerinden gece 23:00'te bile sorularıma anında yanıt aldım. Sanal tur özelliği sayesinde Dubai'dan bile evi detaylıca inceleyebildim. Ekip o kadar profesyonel ki, tapu işlemlerinden kredi sürecine kadar her aşamada yanımdaydılar.",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Demir",
+        "text": "Yıllardır Beşiktaş'ta yatırımlık daire arıyordum ama bir türlü doğru fırsatı yakalayamıyordum. Telegram botu sayesinde fiyatı düşen bir gayrimenkulden anında haberdar oldum. Danışmanım Ahmet Bey, bölge analizi yaparak kira getirisini detaylıca hesapladı. Şu an ayda 35.000 TL kira geliri elde ediyorum. Kesinlikle tavsiye ederim.",
+        "rating": 5
+      },
+      {
+        "name": "Ayşe Yılmaz",
+        "text": "Evimi satıp daha büyük bir eve geçmek istiyordum. Beşiktaş Emlak ekibi, önce evimin değerlemesini yaptı, profesyonel fotoğraf çekimi organize etti. AI açıklama sistemi ile hazırlanan ilan metni o kadar etkileyiciydi ki, 2 hafta içinde alıcı buldum. Yeni evim için de harika alternatifler sundular. CRM sistemleri sayesinde tüm süreci şeffaf bir şekilde takip edebildim.",
+        "rating": 5
+      },
+      {
+        "name": "Emre Özkan",
+        "text": "İlk kez ev alacak biri olarak çok tedirgindimdim. Beşiktaş Emlak'ın blog yazıları sayesinde emlak piyasası hakkında çok şey öğrendim. Danışmanım her aşamada sabırla sorularımı yanıtladı. Sanal tur sistemi gerçekten muhteşem, 15 evi gezmeme gerek kalmadan hayalimdeki evi buldum. Tek eksik, bazı eski binalarda sanal tur olmamasıydı ama yine de hizmetlerinden çok memnunum.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Beşiktaş'ta Hayalinizdeki Eve Bugün Kavuşun",
+    "ctaButton": "Hemen Ara",
+    "sectorData": {
+      "properties": [
+        {
+          "title": "Akaretler'de Boğaz Manzaralı Lüks Rezidans",
+          "type": "Satılık",
+          "area": "185",
+          "price": "28.500.000"
+        },
+        {
+          "title": "Etiler'de Teraslı Modern Daire",
+          "type": "Kiralik",
+          "area": "120",
+          "price": "45.000"
+        },
+        {
+          "title": "Bebek Sahilinde Tarihi Yalı Dairesi",
+          "type": "Satılık",
+          "area": "220",
+          "price": "42.000.000"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Başlangıç Paketi",
+          "price": "15.000 TL/ay",
+          "description": "Yeni başlayan emlak ofisleri için ideal",
+          "features": [
+            "100 ilan yayınlama hakkı",
+            "WhatsApp Business entegrasyonu",
+            "Temel CRM sistemi",
+            "Mobil uyumlu website"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Profesyonel Paket",
+          "price": "35.000 TL/ay",
+          "description": "Orta ölçekli emlak ofisleri için",
+          "features": [
+            "Sınırsız ilan yayınlama",
+            "AI müşteri eşleştirme sistemi",
+            "360° sanal tur özelliği",
+            "Telegram ilan botu",
+            "Gelişmiş CRM ve raporlama",
+            "7/24 teknik destek"
+          ],
+          "popular": true
+        },
+        {
+          "title": "Kurumsal Çözüm",
+          "price": "Özel Fiyat",
+          "description": "Büyük emlak şirketleri ve franchise'lar için",
+          "features": [
+            "Tüm Profesyonel Paket özellikleri",
+            "Özel API entegrasyonu",
+            "Multi-ofis yönetimi",
+            "AI destekli SEO blog sistemi",
+            "Özel yazılım geliştirme",
+            "Dedicated account manager"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Beşiktaş Emlak | emlak",
+    "description": "Beşiktaş Emlak olarak 2005 yılından bu yana İstanbul'un kalbi Beşiktaş'ta gayrimenkul sektöründe öncü hizmetler sunuyoruz. Müşterilerimizin hayallerini gerçeğe "
+  }
+}

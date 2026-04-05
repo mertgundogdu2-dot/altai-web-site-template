@@ -1,0 +1,154 @@
+{
+  "business": {
+    "name": "Dental Clinic",
+    "sector": "klinik",
+    "slogan": "Sarıyer'in en deneyimli diş hekimlerinden gelişmiş teknoloji ve samimi hizmet ile sağlıklı gülüşler için profesyonel çözümler",
+    "phone": "",
+    "address": "Sariyer, Istanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#1E3A8A",
+    "accentColor": "#06B6D4",
+    "fontFamily": "Poppins",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Güzel Gülüşünüz İçin Modern Yaklaşım",
+    "heroSubtitle": "Sarıyer'in en deneyimli diş hekimlerinden gelişmiş teknoloji ve samimi hizmet ile sağlıklı gülüşler için profesyonel çözümler",
+    "aboutText": "Dental Clinic olarak, her hastamızın sağlıklı ve güzel bir gülüşe sahip olması için modern diş hekimliği alanındaki en son teknolojileri kullanıyoruz. Deneyimli ekibimizle birlikte, rahat ve güvenli bir ortamda size özel tedavi planları hazırlıyoruz. Dental sağlığınızın yanında, güven veren bir hizmet anlayışıyla sizinle birlikte yol alıyoruz.",
+    "services": [
+      {
+        "title": "Genel Diş Muayenesi ve Kontrol",
+        "description": "Kapsamlı ağız ve diş sağlığı kontrolü, erken teşhis ve koruyucu tedaviler. Dijital röntgen ve intraoral kamera ile detaylı değerlendirme yapıyoruz."
+      },
+      {
+        "title": "Diş Beyazlatma",
+        "description": "Güvenli ve etkili yöntemlerle gülüşünüzü aydınlatan profesyonel diş beyazlatma. Uzun süreli sonuçlar için kişiselleştirilmiş tedavi planları."
+      },
+      {
+        "title": "İmplant Tedavisi",
+        "description": "Eksik dişlerinizi kalıcı çözümle tamamlayan implant uygulamaları. En kaliteli materyaller ve deneyimli yaklaşımımızla doğal diş hissi."
+      },
+      {
+        "title": "Ortodonti ve Tel Tedavisi",
+        "description": "Şeffaf plaklar ve metal braketlerle diş dizilimi düzeltme. Modern ortodontik yöntemlerle estetik ve fonksiyonel gülüş tasarımı."
+      },
+      {
+        "title": "Kanal Tedavisi",
+        "description": "İleri teknoloji rotary cihazlarla ağrısız kanal tedavisi. Enfekte dişleri kurtaran etkili endodontik çözümler ve bakım programı."
+      },
+      {
+        "title": "Estetik Dolgu ve Kaplama",
+        "description": "Composite ve porselen veneer ile estetik gülüş tasarımı. Renk uyumu mükemmel, doğal görünümde restoratif işlemler."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe Kara",
+        "text": "10 yıldır gitmediğim diş hekiminden sonra burada gerçekten rahat ettim. Hem doktor hem asistan çok ilgili ve anlayışlı. İmplant tedavim mükemmel geçti, hiç ağrım olmadı. Herkese tavsiye ederim.",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Özkan",
+        "text": "Diş beyazlatma yaptırdım ve sonuçtan çok memnunum. Kliniğin temizliği, sterilizasyon konusundaki titizlikleri ve personelin güler yüzü beni çok etkiledi. Kesinlikle tekrar geleceğim.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Yılmaz",
+        "text": "Oğlumun ortodonti tedavisi için gitmiştik. Çocukla çok iyi iletişim kuruyorlar, korkuları gideriyor. Randevu sistemi çok düzenli, hiç beklemedik. Modern cihazları da var, çok profesyonel bir klinik.",
+        "rating": 5
+      },
+      {
+        "name": "Ali Demir",
+        "text": "Kanal tedavisi yaptırdım. Önceden çok korkuyordum ama burada gerçekten ağrısız oldu. Doktor her aşamayı açıklıyor, ne yapacağını anlatıyor. Fiyatları da makul, aldığım hizmetle orantılı.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Sağlıklı Gülüşünüz İçin Hemen Randevu Alın",
+    "ctaButton": "Online Randevu Al",
+    "sectorData": {
+      "specialties": [
+        {
+          "title": "Dijital Diş Hekimliği",
+          "description": "İntraoral scanner, dijital röntgen ve CAD/CAM teknolojisi ile hassas teşhis ve tedavi planlaması"
+        },
+        {
+          "title": "Sedatif Diş Hekimliği",
+          "description": "Dental korkusu olan hastalar için bilinçli sedasyon ve anksiyete kontrolü uygulamaları"
+        },
+        {
+          "title": "Minimal İnvaziv Tedaviler",
+          "description": "Mümkün olduğunca az müdahale ile maksimum sonuç veren koruyucu diş hekimliği yaklaşımı"
+        },
+        {
+          "title": "Estetik Gülüş Tasarımı",
+          "description": "Dijital gülüş analizi ve kişiselleştirilmiş estetik planlar ile dream smile konsepti"
+        }
+      ],
+      "doctors": [
+        {
+          "name": "Dr. Elif Güvenç",
+          "specialty": "Genel Diş Hekimliği ve Estetik Diş Hekimliği"
+        },
+        {
+          "name": "Dr. Burak Altunay",
+          "specialty": "Ağız Diş Çene Cerrahisi ve İmplantoloji"
+        },
+        {
+          "name": "Dr. Selin Kocaman",
+          "specialty": "Orthodonti ve Çocuk Diş Hekimliği"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Temel Bakım",
+          "price": "150 TL/seans",
+          "description": "genel kontrol ve temizlik",
+          "features": [
+            "Kapsamlı muayene",
+            "Diş taşı temizliği",
+            "Florür uygulaması"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Premium Tedavi",
+          "price": "500 TL/seans",
+          "description": "estetik ve restoratif",
+          "features": [
+            "Estetik dolgu",
+            "Diş beyazlatma",
+            "Kanal tedavisi",
+            "Kron-köprü",
+            "Dijital ölçü"
+          ],
+          "popular": true
+        },
+        {
+          "title": "Advanced İmplant",
+          "price": "Özel Fiyat",
+          "description": "cerrahi ve implant",
+          "features": [
+            "İmplant cerrahisi",
+            "Kemik greftleme",
+            "All-on-4 sistem",
+            "3D planlaması",
+            "Geçici protez",
+            "Garanti"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Dental Clinic | klinik",
+    "description": "Dental Clinic olarak, her hastamızın sağlıklı ve güzel bir gülüşe sahip olması için modern diş hekimliği alanındaki en son teknolojileri kullanıyoruz. Deneyimli ekibimizle birlikte, rahat ve güvenli bir ortamda size özel tedavi planları hazırlıyoruz. Dental sağlığınızın yanında, güven veren bir hizmet anlayışıyla sizinle birlikte yol alıyoruz."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "business": {
+    "name": "Özel Gül Ağız ve Diş Sağlığı Polikliniği",
+    "sector": "klinik",
+    "slogan": "Kartal'ın en modern gül temalı diş kliniğinde, son teknoloji ekipmanlar ve uzman kadromuzla gülen yüzünüzü gül gibi açtırıyoruz",
+    "phone": "(0216) 374 72 53",
+    "address": "Kartal, İstanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#E91E63",
+    "secondaryColor": "#2C3E50",
+    "accentColor": "#FFC0CB",
+    "fontFamily": "Quicksand",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Güllerin Gücüyle Sağlıklı Gülüşler",
+    "heroSubtitle": "Kartal'ın en modern gül temalı diş kliniğinde, son teknoloji ekipmanlar ve uzman kadromuzla gülen yüzünüzü gül gibi açtırıyoruz",
+    "aboutText": "Özel Gül Ağız ve Diş Sağlığı Polikliniği olarak 2020 yılında Kartal'da açtığımız modern kliniğimizde, diş tedavisini bir sanat haline getiriyoruz. Gül temalı özel tasarımımız ve pembe tonlarındaki sıcak atmosferimizle, diş hekimi korkusunu unutturan bir deneyim sunuyoruz. 1959 Google yorumu ve 4.8 yıldız ortalamasıyla Kartal'ın en beğenilen diş kliniği olarak, her gün yüzlerce hastamızın gülümsemesine gül gibi bir dokunuş katıyoruz. Dijital diş hekimliği teknolojileri, 3D tomografi, CAD/CAM sistemleri ve mikroskop destekli tedavilerimizle, ağız ve diş sağlığınızı en üst düzeyde koruyoruz.",
+    "services": [
+      {
+        "title": "İmplant Tedavisi",
+        "description": "Eksik dişlerinizi titanyum implantlarla kalıcı olarak tamamlıyoruz. All-on-4 ve All-on-6 teknikleriyle tek seansta tüm çenenizi yeniliyoruz, aynı gün geçici protezlerinizi takarak sosyal hayatınızı aksatmıyoruz."
+      },
+      {
+        "title": "Dijital Gülüş Tasarımı",
+        "description": "Bilgisayar ortamında yüzünüze en uygun gülüşü tasarlıyor, tedavi öncesi sonucu görmenizi sağlıyoruz. Hollywood smile ve pembe estetik uygulamalarımızla gülüşünüzü gül yapraklarının zarafetine kavuşturuyoruz."
+      },
+      {
+        "title": "Şeffaf Plak Ortodonti",
+        "description": "Metal teller yerine görünmez plaklarla dişlerinizi düzeltiyoruz. 3D tarama teknolojisiyle hazırlanan özel plaklarınız, kimse fark etmeden 6-12 ay içinde mükemmel dizilime ulaşmanızı sağlıyor."
+      },
+      {
+        "title": "Zirkonyum Kaplama",
+        "description": "Doğal diş görünümüne en yakın zirkonyum kaplamalarımızla hem estetik hem dayanıklılık sunuyoruz. Tek seansta CEREC sistemiyle hazırlanan kaplamalarınız, ışık geçirgenliği sayesinde gerçek dişlerden ayırt edilmiyor."
+      },
+      {
+        "title": "Lazer Diş Beyazlatma",
+        "description": "Özel gül aromalı jel ve son nesil lazer teknolojisiyle dişlerinizi 8 tona kadar açıyoruz. 45 dakikalık tek seansta kahve, çay lekelerinizden kurtulup bembeyaz bir gülüşe kavuşuyorsunuz."
+      },
+      {
+        "title": "Mikroskobik Kanal Tedavisi",
+        "description": "Dental mikroskop altında gerçekleştirdiğimiz hassas kanal tedavileriyle %98 başarı oranına ulaşıyoruz. Ağrısız anestezi teknikleri ve rotary sistemlerle 30 dakikada tamamlanan işlemlerimizle dişlerinizi kurtarıyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Elif Güneş",
+        "text": "Diş hekimi fobim vardı ama Gül Klinik'in pembe dekorasyonu ve gül kokusu beni o kadar rahatlattı ki tedavim boyunca hiç korkmadım. Dr. Ayşe Hanım'ın sıcak yaklaşımı ve modern cihazları sayesinde implantlarım mükemmel oldu. Artık gül gibi gülüyorum, herkese tavsiye ediyorum!",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Demir",
+        "text": "Kartal'da birçok klinike gittim ama böylesini görmedim. Online randevu sistemleri o kadar pratik ki, işten çıkışa randevumu ayarlayabiliyorum. Zirkonyum kaplamalarım için tek seans yetti, üstelik fiyatları da çok makul. Ekip gerçekten işini biliyor, 20 yıllık sigara lekelerim tamamen gitti.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Kaya",
+        "text": "Kızımın diş teli tedavisi için geldik, şeffaf plak sistemini çok beğendik. Okuldaki arkadaşları fark etmiyor bile! Klinik o kadar modern ki, 3D tarama cihazıyla ağzından ölçü almadan plakları hazırladılar. Fiyatlar Kartal'daki diğer kliniklere göre çok daha uygun, personel güleryüzlü ve ilgili.",
+        "rating": 5
+      },
+      {
+        "name": "Ali Yılmaz",
+        "text": "Acil diş ağrısıyla gece aradığımda hemen randevu verdiler. Mikroskopla kanal tedavimi yaptılar, hiç ağrı hissetmedim. Klinikteki gül teması ve pembe renkler gerçekten rahatlatıcı. Sadece tedavi kalitesi yüzünden 5 yıldız verirdim ama ambiyans da muhteşem. Teşekkürler Gül Klinik!",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Gülüşünüzü Gül Gibi Açtırmaya Hazır Mısınız?",
+    "ctaButton": "Ücretsiz Muayene",
+    "sectorData": {
+      "specialties": [
+        {
+          "title": "Estetik Diş Hekimliği",
+          "description": "Pembe estetik, kompozit bonding ve porselen laminate uygulamalarımızla gülüşünüzü sanat eserine dönüştürüyoruz. Dijital smile design teknolojisiyle tedavi öncesi sonucu görebilir, hayalinizdeki gülüşe kavuşabilirsiniz."
+        },
+        {
+          "title": "İmplantoloji",
+          "description": "İsviçre ve Güney Kore menşeili premium implant markalarıyla çalışıyoruz. 3D tomografi eşliğinde planlanan cerrahi operasyonlarımız, maksimum güvenlik ve başarı oranı sunuyor."
+        },
+        {
+          "title": "Pedodonti",
+          "description": "Çocuk dostu pembe oyun alanımız ve gül temalı muayene odalarımızla miniklerinizin diş hekimi korkusunu yeniyoruz. Florür uygulaması ve fissür örtücülerle koruyucu tedaviler uyguluyoruz."
+        },
+        {
+          "title": "Periodontoloji",
+          "description": "Diş eti hastalıklarını lazer teknolojisiyle ağrısız tedavi ediyoruz. Pembe estetik uygulamalarımızla diş eti çekilmelerini düzeltiyor, gülümsemenizin estetiğini artırıyoruz."
+        }
+      ],
+      "doctors": [
+        {
+          "name": "Dr. Ayşe Gül Özdemir",
+          "specialty": "Estetik Diş Hekimliği ve İmplantoloji Uzmanı"
+        },
+        {
+          "name": "Dr. Mehmet Güler",
+          "specialty": "Ortodonti Uzmanı"
+        },
+        {
+          "name": "Dr. Zehra Gültekin",
+          "specialty": "Pedodonti (Çocuk Diş Hekimliği) Uzmanı"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Gül Başlangıç",
+          "price": "2.500 TL/ay",
+          "description": "Temel diş bakımı ve kontroller için ideal",
+          "features": [
+            "Yılda 2 detaylı muayene ve temizlik",
+            "Basit dolgu işlemlerinde %20 indirim",
+            "7/24 acil destek hattı",
+            "Ücretsiz ağız bakım seti"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Gül Premium",
+          "price": "4.900 TL/ay",
+          "description": "Ailenizin tüm diş sağlığı ihtiyaçları için",
+          "features": [
+            "Sınırsız muayene ve kontrol",
+            "Tüm tedavilerde %30 indirim",
+            "Yılda 1 ücretsiz beyazlatma",
+            "Aile üyelerine %15 ek indirim",
+            "Özel WhatsApp danışma hattı",
+            "Otopark ve vale hizmeti"
+          ],
+          "popular": true
+        },
+        {
+          "title": "Gül VIP",
+          "price": "Özel Fiyat",
+          "description": "Kişiye özel premium diş sağlığı yönetimi",
+          "features": [
+            "Kişisel diş hekimi ataması",
+            "Tüm tedavilerde %50 indirim",
+            "Yurtdışı sigorta desteği",
+            "Evde diş bakım hizmeti",
+            "Özel VIP bekleme salonu",
+            "Limitsiz estetik danışmanlık"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Özel Gül Ağız ve Diş Sağlığı Polikliniği | klinik",
+    "description": "Özel Gül Ağız ve Diş Sağlığı Polikliniği olarak 2020 yılında Kartal'da açtığımız modern kliniğimizde, diş tedavisini bir sanat haline getiriyoruz. Gül temalı özel tasarımımız ve pembe tonlarındaki sıcak atmosferimizle, diş hekimi korkusunu unutturan bir deneyim sunuyoruz. 1959 Google yorumu ve 4.8 yıldız ortalamasıyla Kartal'ın en beğenilen diş kliniği olarak, her gün yüzlerce hastamızın gülümsemesine gül gibi bir dokunuş katıyoruz. Dijital diş hekimliği teknolojileri, 3D tomografi, CAD/CAM sistemleri ve mikroskop destekli tedavilerimizle, ağız ve diş sağlığınızı en üst düzeyde koruyoruz."
+  }
+}

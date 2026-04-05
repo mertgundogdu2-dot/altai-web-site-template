@@ -1,0 +1,143 @@
+{
+  "business": {
+    "name": "Premium Emlak",
+    "sector": "emlak",
+    "slogan": "Boğaz manzaralı lüks konutlardan özel villalara, hayalinizdeki evi bulmanız için size özel hizmet sunuyoruz.",
+    "phone": "",
+    "address": "Sariyer, Istanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#0F1419",
+    "secondaryColor": "#C9AA7F",
+    "accentColor": "#B8860B",
+    "fontFamily": "DM Sans",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Sarıyer'in En Prestijli Emlak Danışmanınız",
+    "heroSubtitle": "Boğaz manzaralı lüks konutlardan özel villalara, hayalinizdeki evi bulmanız için size özel hizmet sunuyoruz.",
+    "aboutText": "Premium Emlak olarak 2018'den beri Sarıyer'in en seçkin semtlerinde faaliyet gösteriyoruz. Müşterilerimizin sadece bir ev değil, bir yaşam tarzı satın aldığını bilerek, her projeye özel yaklaşım sergiliyoruz. Deneyimli ekibimizle İstanbul'un en değerli gayrimenkul portföyünü sizlerle buluşturuyoruz.",
+    "services": [
+      {
+        "title": "Lüks Konut Satış",
+        "description": "Boğaz manzaralı dairelerden özel tasarım villalara kadar premium konut portföyümüzle hayalinizdeki evi bulun. Her müşterimize özel danışmanlık hizmeti sunarak, yatırımınızın değerini maksimize ediyoruz."
+      },
+      {
+        "title": "Yatırım Danışmanlığı",
+        "description": "İstanbul emlak piyasasındaki 15 yıllık deneyimimizle, en karlı yatırım fırsatlarını belirliyoruz. Piyasa analizleri ve gelecek projeksiyonlarıyla yatırımınızı güvende tutuyoruz."
+      },
+      {
+        "title": "Kiralama Yönetimi",
+        "description": "Mülkünüzün kiralama sürecini A'dan Z'ye yönetiyoruz. Kiracı seçiminden kira takibine, bakım-onarımdan yasal işlemlere kadar her aşamada yanınızdayız."
+      },
+      {
+        "title": "Proje Pazarlama",
+        "description": "Yeni inşaat projeleriniz için kapsamlı pazarlama stratejileri geliştiriyoruz. 3D görselleştirmelerden tanıtım videolarına, satış ofisi kurulumundan müşteri takibine kadar tüm süreçte partneriğiz."
+      },
+      {
+        "title": "Gayrimenkul Değerleme",
+        "description": "SPK lisanslı eksper ekibimizle mülkünüzün gerçek piyasa değerini belirliyoruz. Alım, satım veya yatırım kararlarınızda size objektif veri sağlıyoruz."
+      },
+      {
+        "title": "VIP Müşteri Hizmetleri",
+        "description": "Özel müşterilerimiz için 7/24 danışmanlık hizmeti sunuyoruz. Kişisel asistanlık, özel gezi organizasyonları ve hızlı işlem garantisiyle ayrıcalıklı deneyim yaşatıyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Özkan",
+        "text": "Premium Emlak ile çalışmak gerçekten bir ayrıcalıktı. Boğaz manzaralı hayalimdeki dairei bulmaları sadece 2 hafta sürdü. Profesyonel yaklaşımları ve samimi tavırları sayesinde tüm süreç çok rahat geçti.",
+        "rating": 5
+      },
+      {
+        "name": "Ayşe Demir",
+        "text": "5 yıldır emlak yatırımı yapmak istiyordum ama doğru firmayi bulamiyordum. Premium Emlak'in piyasa analizi ve rehberliği sayesinde harika bir yatırım yaptım. Şimdiden değer kazanmaya başladı.",
+        "rating": 5
+      },
+      {
+        "name": "Ahmet Kaya",
+        "text": "Kiralama sürecinde yaşadığım problemler yüzünden çok stresliydim. Premium Emlak ekibi mülkümü profesyonelce yönetiyor ve hiç kafamı dert etmiyorum. Gerçekten güvenilir bir firma.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Yılmaz",
+        "text": "Sarıyer'de villa arayışımda Premium Emlak'in titiz çalışması sayesinde mükemmel bir seçenek bulduk. Fiyat müzakerelerinde de çok destek oldular. Kesinlikle tavsiye ederim.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Hayalinizdeki Evi Bulma Zamanı",
+    "ctaButton": "Hemen İletişime Geç",
+    "sectorData": {
+      "properties": [
+        {
+          "title": "Boğaz Manzaralı Lüks Daire - Yeniköy",
+          "type": "Satılık",
+          "area": "185m²",
+          "price": "12.500.000 TL"
+        },
+        {
+          "title": "Modern Villa - Emirgan",
+          "type": "Satılık",
+          "area": "420m²",
+          "price": "28.000.000 TL"
+        },
+        {
+          "title": "Bahçeli Triplex - İstinye",
+          "type": "Kiralık",
+          "area": "320m²",
+          "price": "45.000 TL"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Bireysel",
+          "price": "2.500 TL/ay",
+          "description": "Kişisel emlak ihtiyaçları",
+          "features": [
+            "Telegram Ilan Botu",
+            "Temel piyasa analizi",
+            "Online mülk arama",
+            "E-mail desteği"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Premium",
+          "price": "7.500 TL/ay",
+          "description": "Yatırımcılar için",
+          "features": [
+            "AI Müşteri Eşleştirme",
+            "Otomatik SEO Blog",
+            "Sanal Tur + AI Açıklama",
+            "CRM + Takip Otomasyonu",
+            "Kişisel danışman"
+          ],
+          "popular": true
+        },
+        {
+          "title": "VIP",
+          "price": "Özel Fiyat",
+          "description": "Kurumsal müşteriler",
+          "features": [
+            "Tüm premium özellikler",
+            "7/24 kişisel asistan",
+            "Özel piyasa raporları",
+            "Eksper değerleme",
+            "Yasal danışmanlık",
+            "Öncelikli görüntüleme"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Premium Emlak | emlak",
+    "description": "Premium Emlak olarak 2018'den beri Sarıyer'in en seçkin semtlerinde faaliyet gösteriyoruz. Müşterilerimizin sadece bir ev değil, bir yaşam tarzı satın aldığını bilerek, her projeye özel yaklaşım sergiliyoruz. Deneyimli ekibimizle İstanbul'un en değerli gayrimenkul portföyünü sizlerle buluşturuyoruz."
+  }
+}

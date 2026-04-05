@@ -1,0 +1,89 @@
+{
+  "business": {
+    "name": "Elf Kerem",
+    "sector": "emlak",
+    "slogan": "İstanbul'un incisi Sarıyer'de hayalinizdeki lüks konutu keşfedin. Uzman ekibimizle en özel fırsatlara ulaşın.",
+    "phone": "",
+    "address": "Sariyer, Istanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#1A365D",
+    "secondaryColor": "#2D3748",
+    "accentColor": "#C6A876",
+    "fontFamily": "DM Sans",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Sarıyer'in En Prestijli Emlakları",
+    "heroSubtitle": "İstanbul'un incisi Sarıyer'de hayalinizdeki lüks konutu keşfedin. Uzman ekibimizle en özel fırsatlara ulaşın.",
+    "aboutText": "Sarıyer'in kalbinde köklü bir emlak deneyimi sunan Elf Kerem, 15 yıllık sektör tecrübesiyle İstanbul'un en prestijli bölgesindeki lüks konutlarda uzmanlaştı. Modern teknoloji ve kişisel dokunuşu harmanlayarak, her müşterisine özel çözümler üretir. Güvenilir hizmet anlayışımızla, hayalinizdeki evi bulmaktan satış sonrası desteğe kadar yanınızdayız.",
+    "services": [
+      {
+        "title": "Lüks Konut Danışmanlığı",
+        "description": "Sarıyer ve çevresindeki premium konutlarda uzman ekibimizle kişiselleştirilmiş danışmanlık hizmeti. Yatırım potansiyeli yüksek gayrimenkuller için detaylı analiz ve profesyonel rehberlik sunuyoruz."
+      },
+      {
+        "title": "AI Destekli Müşteri Eşleştirme",
+        "description": "Yapay zeka teknolojisi ile müşteri profillerinizi analiz ediyor, en uygun gayrimenkul seçeneklerini otomatik olarak eşleştiriyoruz. Zaman kazandıran akıllı çözümlerle hızlı sonuçlara ulaşın."
+      },
+      {
+        "title": "Sanal Tur & Emlak Fotoğrafçılığı",
+        "description": "360° sanal turlar ve profesyonel emlak fotoğrafçılığı ile gayrimenkullerinizi dijital ortamda en etkileyici şekilde sergileyiyoruz. AI destekli açıklamalarla detaylı bilgiler sunuyoruz."
+      },
+      {
+        "title": "Yatırım Danışmanlığı",
+        "description": "İstanbul emlak piyasasındaki uzun yılların deneyimi ile yatırım amaçlı gayrimenkul alım-satımında stratejik danışmanlık. Portföy değerlendirmesi ve karlılık analizi hizmetlerimizden faydalanın."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Ali Kaya",
+        "text": "Sarıyer'de hayalimizin evini bulmak için Elf Kerem ile çalışmak harika bir deneyimdi. Ahmet Bey'in profesyonel yaklaşımı ve piyasa bilgisi sayesinde hem ideal konutumuzu bulduk hem de çok iyi bir yatırım yaptık. Kesinlikle tavsiye ediyorum.",
+        "rating": 5
+      },
+      {
+        "name": "Ayşe Demir",
+        "text": "Emlak alım-satım sürecinde böylesine güvenilir ve samimi bir hizmet almayı beklemiyordum. Tüm işlemlerimiz şeffaf bir şekilde gerçekleşti, sürekli bilgilendirildiğim için hiç endişe duymadım. Teşekkürler Elf Kerem ailesi.",
+        "rating": 5
+      },
+      {
+        "name": "Can Özgür",
+        "text": "Yıllar sonra tekrar ev değiştirme kararı aldığımda, Elf Kerem'in teknoloji destekli hizmetleri gerçekten etkileyiciydi. Sanal turlar sayesinde çok zaman kazandık, AI eşleştirme sistemleri ise tam ihtiyacımıza uygun seçenekler sundu.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Hayalinizdeki Evi Bulalım",
+    "ctaButton": "Ücretsiz Danışmanlık Al",
+    "sectorData": {
+      "properties": [
+        {
+          "title": "Sarıyer Merkez'de Modern 4+1 Dublex",
+          "type": "Satılık",
+          "area": "220m²",
+          "price": "28.500.000 TL"
+        },
+        {
+          "title": "Büyükdere Caddesi Üzeri Lüks 3+1",
+          "type": "Kiralık",
+          "area": "160m²",
+          "price": "45.000 TL"
+        },
+        {
+          "title": "Boğaz Manzaralı Villa Sarıyer",
+          "type": "Satılık",
+          "area": "350m²",
+          "price": "85.000.000 TL"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Elf Kerem | emlak",
+    "description": "Sarıyer'in kalbinde köklü bir emlak deneyimi sunan Elf Kerem, 15 yıllık sektör tecrübesiyle İstanbul'un en prestijli bölgesindeki lüks konutlarda uzmanlaştı. Modern teknoloji ve kişisel dokunuşu harmanlayarak, her müşterisine özel çözümler üretir. Güvenilir hizmet anlayışımızla, hayalinizdeki evi bulmaktan satış sonrası desteğe kadar yanınızdayız."
+  }
+}

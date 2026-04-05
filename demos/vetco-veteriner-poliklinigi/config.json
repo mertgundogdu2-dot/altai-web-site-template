@@ -1,0 +1,155 @@
+{
+  "business": {
+    "name": "VetCo Veteriner Polikliniği",
+    "sector": "klinik",
+    "slogan": "VetCo'da her can dostunuz, ailemizin bir parçası. Modern tıp teknolojisi ve sonsuz sevgiyle, onların mutluluğu için buradayız.",
+    "phone": "(0212) 890 00 70",
+    "address": "Sarıyer, İstanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#4ECDC4",
+    "secondaryColor": "#FF6B6B",
+    "accentColor": "#FFA726",
+    "fontFamily": "Quicksand",
+    "heroLayout": "centered",
+    "heroImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80"
+  },
+  "content": {
+    "heroTitle": "Patili Dostlarınızın Sağlık Yuvası",
+    "heroSubtitle": "VetCo'da her can dostunuz, ailemizin bir parçası. Modern tıp teknolojisi ve sonsuz sevgiyle, onların mutluluğu için buradayız.",
+    "aboutText": "2015 yılında Sarıyer'de açılan VetCo Veteriner Polikliniği, bölgenin en güvenilir ve modern veteriner sağlık merkezlerinden biri haline geldi. 4.6 Google puanımız ve binlerce mutlu aile, sevgi dolu yaklaşımımızın en büyük kanıtı. Köpekten kediye, kuştan egzotik hayvanlara kadar tüm dostlarımıza 7/24 acil dahil tam kapsamlı veteriner hizmeti sunuyoruz. Deneyimli veteriner hekimlerimiz ve son teknoloji ameliyat odamızla, minik dostlarınızın her türlü sağlık ihtiyacına profesyonel çözümler üretiyoruz. Çünkü biliyoruz ki onlar sadece evcil hayvan değil, ailenin bir parçası.",
+    "services": [
+      {
+        "title": "Genel Muayene ve Kontrol",
+        "description": "Patili dostlarınızın sağlık durumunu düzenli kontrol ederek hastalıkları erken teşhis ediyoruz. Detaylı fizik muayene, kan tahlilleri ve görüntüleme yöntemleriyle kapsamlı sağlık taraması yapıyoruz. Her kontrolde beslenme önerileri, kilo takibi ve genel sağlık değerlendirmesi ile dostlarınızın uzun ve sağlıklı bir yaşam sürmesini sağlıyoruz."
+      },
+      {
+        "title": "Aşılama ve Mikroçip",
+        "description": "İthal ve yerli aşılarla dostlarınızı hastalıklardan koruyoruz. Köpek, kedi, kuş ve egzotik hayvanlar için özel aşı takvimleri oluşturarak düzenli hatırlatmalar yapıyoruz. Zorunlu mikroçip uygulamasını ağrısız ve hızlı şekilde gerçekleştirip, kayıt işlemlerini tamamlıyoruz. Aşı karnesi düzenleme ve takip hizmetimizle sağlık geçmişini kayıt altında tutuyoruz."
+      },
+      {
+        "title": "Cerrahi Operasyonlar",
+        "description": "Modern ameliyat odamızda kısırlaştırmadan ortopedik cerrahiye, yumuşak doku ameliyatlarından diş operasyonlarına kadar geniş bir yelpazede cerrahi müdahaleler gerçekleştiriyoruz. Deneyimli cerrah ekibimiz ve ileri anestezi sistemlerimizle güvenli operasyonlar yapıyoruz. Ameliyat sonrası yoğun bakım ve hospitalizasyon hizmetimizle iyileşme sürecini yakından takip ediyoruz."
+      },
+      {
+        "title": "Diş ve Ağız Sağlığı",
+        "description": "Diş taşı temizliği, diş çekimi, dolgu ve kanal tedavisi gibi tüm dental işlemleri profesyonel ekipmanlarla gerçekleştiriyoruz. Ultrasonik diş temizleme cihazımızla ağrısız ve etkili temizlik sağlıyoruz. Düzenli ağız bakımı önerileri ve evde bakım eğitimleriyle dostlarınızın diş sağlığını korumaya yardımcı oluyoruz."
+      },
+      {
+        "title": "Laboratuvar ve Görüntüleme",
+        "description": "Tam kan sayımı, biyokimya, idrar analizi ve hormon testlerini kendi laboratuvarımızda hızla sonuçlandırıyoruz. Dijital röntgen ve ultrason cihazlarımızla detaylı görüntüleme yaparak doğru teşhis koyuyoruz. Mikroskobik incelemeler, dışkı muayenesi ve kültür testleriyle hastalıkların kesin tanısını belirliyoruz."
+      },
+      {
+        "title": "Acil Veteriner Hizmeti",
+        "description": "7/24 acil veteriner hizmetimizle hayati durumlarda anında müdahale ediyoruz. Zehirlenme, kaza, doğum komplikasyonları ve ani rahatsızlıklarda deneyimli acil ekibimiz hazır bekliyor. Tam donanımlı acil müdahale odamız ve yoğun bakım ünitemizle kritik vakalarda hayat kurtarıcı tedaviler uyguluyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe Yılmaz",
+        "text": "Golden'ım Max'in kalça displazisi ameliyatını VetCo'da yaptırdım. Ameliyat öncesi detaylı bilgilendirme, ameliyat süreci ve sonrasındaki özenli bakımları gerçekten etkileyiciydi. Şimdi Max eskisinden daha mutlu koşuyor. Tüm ekibe sonsuz teşekkürler, gerçekten işlerini sevgiyle yapıyorlar.",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Kaya",
+        "text": "Kedim Pamuk'u rutin kontrole götürdüğümde erken dönem böbrek problemi tespit ettiler. Hemen tedaviye başladık ve şu an çok daha sağlıklı. Erken teşhis sayesinde büyük bir sıkıntıyı atlattık. VetCo ekibinin titizliği ve ilgisi muhteşem, WhatsApp'tan bile sorularımı yanıtlıyorlar.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Demir",
+        "text": "Papağanım Maviş için veteriner ararken VetCo'yu buldum. Egzotik hayvan konusundaki uzmanlıkları beni çok rahatlattı. Tüy yolma problemi için aldığımız tedavi çok başarılı oldu. Klinik tertemiz, ekip güler yüzlü ve gerçekten işinin ehli. Sarıyer'in en iyi veteriner kliniği kesinlikle burası.",
+        "rating": 5
+      },
+      {
+        "name": "Ahmet Özkan",
+        "text": "Gece yarısı köpeğim aniden hastalandığında panik içinde VetCo'yu aradım. 20 dakikada kliniğe ulaştım ve hemen müdahale ettiler. 24 saat açık olmaları gerçekten hayat kurtarıcı. Acil ekibi çok profesyonel ve sakinleştirici. Fiyatları da gayet makul.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Patili Dostunuzun Sağlığını Ertlemeyin",
+    "ctaButton": "Hemen Randevu Al",
+    "sectorData": {
+      "specialties": [
+        {
+          "title": "Köpek ve Kedi Tedavisi",
+          "description": "En yaygın evcil dostlarımız için kapsamlı muayene, tedavi ve koruyucu sağlık hizmetleri. Aşılamadan cerrahiye, diş bakımından dermatolojiye kadar her türlü veteriner hizmeti sunuyoruz."
+        },
+        {
+          "title": "Kuş Hastalıkları",
+          "description": "Muhabbet kuşu, papağan ve diğer kanatlı dostlarımız için özel muayene ve tedavi protokolleri. Tüy problemleri, solunum hastalıkları ve beslenme danışmanlığı hizmetleri veriyoruz."
+        },
+        {
+          "title": "Egzotik Hayvan Bakımı",
+          "description": "Tavşan, hamster, iguana gibi egzotik evcil hayvanlar için uzman veteriner hekimlerimizle özel bakım. Her türün kendine özgü ihtiyaçlarına uygun tedavi yaklaşımları uyguluyoruz."
+        },
+        {
+          "title": "Acil ve Yoğun Bakım",
+          "description": "7/24 acil müdahale ekibimiz ve modern yoğun bakım ünitemizle kritik vakalarda hayat kurtarıcı tedaviler. Sürekli monitörizasyon ve özel bakım protokolleriyle en iyi sonuçları alıyoruz."
+        }
+      ],
+      "doctors": [
+        {
+          "name": "Dr. Elif Sarıkaya",
+          "specialty": "Cerrahi ve Ortopedi Uzmanı"
+        },
+        {
+          "name": "Dr. Burak Yılmaz",
+          "specialty": "İç Hastalıkları ve Kardiyoloji"
+        },
+        {
+          "name": "Dr. Selin Öztürk",
+          "specialty": "Egzotik Hayvanlar ve Dermatoloji"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Temel Bakım",
+          "price": "2.500 TL/ay",
+          "description": "Tek evcil hayvan sahibi aileler için",
+          "features": [
+            "Aylık 1 genel muayene",
+            "Temel kan tahlilleri %25 indirimli",
+            "Aşı hatırlatma servisi",
+            "WhatsApp danışma hattı"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Aile Paketi",
+          "price": "4.500 TL/ay",
+          "description": "Birden fazla evcil hayvan sahipleri için",
+          "features": [
+            "3 evcil hayvana kadar aylık muayene",
+            "Tüm laboratuvar testlerinde %40 indirim",
+            "Yılda 2 ücretsiz diş temizliği",
+            "Acil durumlarda öncelikli kabul",
+            "Pet taksi hizmeti %50 indirimli"
+          ],
+          "popular": true
+        },
+        {
+          "title": "VIP Sağlık",
+          "price": "Özel Fiyat",
+          "description": "Özel bakım gerektiren dostlarınız için",
+          "features": [
+            "Sınırsız muayene ve kontrol",
+            "Tüm tedavilerde %50 indirim",
+            "Evde veteriner hizmeti ayda 2 kez",
+            "Özel WhatsApp hattı 7/24",
+            "Yıllık check-up paketi hediye",
+            "Ameliyatlarda VIP oda ücretsiz"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "VetCo Veteriner Polikliniği | klinik",
+    "description": "2015 yılında Sarıyer'de açılan VetCo Veteriner Polikliniği, bölgenin en güvenilir ve modern veteriner sağlık merkezlerinden biri haline geldi. 4.6 Google puanım"
+  }
+}

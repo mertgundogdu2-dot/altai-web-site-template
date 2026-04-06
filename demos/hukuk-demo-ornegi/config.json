@@ -1,0 +1,142 @@
+{
+  "business": {
+    "name": "Hukuk Demo Örneği",
+    "sector": "avukat",
+    "slogan": "Sarıyer'in güvenilir hukuk ortağı olarak, 20 yıldır müvekkillerimizin yanında adaleti savunuyoruz. Deneyimli kadromuzla size özel çözümler üretiyoruz.",
+    "phone": "0212 123 45 67",
+    "address": "Sarıyer, İstanbul",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#78350f",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#b8860b",
+    "fontFamily": "Lora",
+    "heroLayout": "centered",
+    "heroImage": "https://source.unsplash.com/1600x900/?law%20office%20professional%20attorney%20justice%20scales"
+  },
+  "content": {
+    "heroTitle": "Haklarınızın Güvencesi, Adaletin Sesi",
+    "heroSubtitle": "Sarıyer'in güvenilir hukuk ortağı olarak, 20 yıldır müvekkillerimizin yanında adaleti savunuyoruz. Deneyimli kadromuzla size özel çözümler üretiyoruz.",
+    "aboutText": "1995 yılından bu yana Sarıyer'de faaliyet gösteren hukuk büromuz, üç kuşak avukatın birikimi ile müvekkillerine hizmet vermektedir. İstanbul Barosu'na kayıtlı 12 uzman avukatımız, ulusal ve uluslararası hukuk alanında edindiğimiz deneyimle, her davaya özel stratejiler geliştirmektedir. Müvekkillerimizin sorunlarını kendi sorunumuz olarak benimser, hukuki süreçlerde şeffaflık ve güven ilkesiyle hareket ederiz. Yargıtay ve Danıştay nezdindeki başarılı temsillerimiz, AİHM'de kazandığımız davalar ve %95'lik müvekkil memnuniyet oranımız, kalitemizin en büyük göstergesidir. Modern hukuk anlayışı ile geleneksel değerleri harmanlayan büromuz, 7/24 acil hukuki danışmanlık hizmeti sunarak, müvekkillerimizin her an yanında olmayı ilke edinmiştir.",
+    "services": [
+      {
+        "title": "Aile Hukuku ve Boşanma Davaları",
+        "description": "Anlaşmalı ve çekişmeli boşanma davalarında uzman kadromuzla yanınızdayız. Velayet, nafaka ve mal paylaşımı konularında müvekkillerimizin haklarını en üst düzeyde koruruz. Aile arabuluculuğu hizmetimizle, mahkeme süreci öncesinde uzlaşma sağlayarak, hem maddi hem manevi yıpranmanın önüne geçiyoruz."
+      },
+      {
+        "title": "Ticaret Hukuku Danışmanlığı",
+        "description": "Şirket kuruluşundan tasfiyeye, ticari sözleşmelerden uyuşmazlık çözümüne kadar tüm ticari süreçlerinizde profesyonel destek sağlıyoruz. Özellikle Sarıyer'deki işletmelere özel sektör deneyimimizle, ticari risklerinizi minimize edecek hukuki stratejiler geliştiriyoruz. Tahkim ve arabuluculuk yöntemleriyle hızlı ve etkili çözümler sunuyoruz."
+      },
+      {
+        "title": "Emlak ve Gayrimenkul Hukuku",
+        "description": "Tapu işlemleri, kat mülkiyeti uyuşmazlıkları, kira sözleşmeleri ve gayrimenkul alım-satım süreçlerinde güvenilir hukuki danışmanlık sunuyoruz. Sarıyer'in değerli gayrimenkul piyasasında, yatırımcıların haklarını koruyarak, olası hukuki riskleri önceden tespit ediyoruz. İmar ve kentsel dönüşüm davalarında da uzman desteğimizle yanınızdayız."
+      },
+      {
+        "title": "Ceza Hukuku ve Savunma",
+        "description": "Soruşturma aşamasından temyize kadar ceza davalarının her aşamasında müvekkillerimizi temsil ediyoruz. Özellikle ekonomik suçlar, bilişim suçları ve kişi hürriyetine karşı suçlarda edindiğimiz uzmanlıkla, en etkili savunma stratejilerini geliştiriyoruz. Mağdur hakları konusunda da kapsamlı hukuki destek sağlıyoruz."
+      },
+      {
+        "title": "İş ve Sosyal Güvenlik Hukuku",
+        "description": "İşçi ve işveren uyuşmazlıklarında, kıdem-ihbar tazminatı, fazla mesai alacakları ve mobbing davalarında deneyimli kadromuzla hizmet veriyoruz. İş kazası ve meslek hastalığı davalarında, müvekkillerimizin tazminat haklarını sonuna kadar savunuyoruz. SGK ile yaşanan uyuşmazlıklarda da etkili çözümler üretiyoruz."
+      },
+      {
+        "title": "Miras Hukuku ve Veraset",
+        "description": "Miras paylaşımı, vasiyetname düzenlenmesi ve tereke davaları konusunda kapsamlı hukuki destek sunuyoruz. Muris muvazaası davalarında ve mirastan mal kaçırma iddialarında, müvekkillerimizin haklarını titizlikle koruyoruz. Veraset ilamı alınmasından mirasın paylaştırılmasına kadar tüm süreçleri profesyonelce yönetiyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Kaya",
+        "text": "15 yıllık ticari ortaklığımızın tasfiye sürecinde yaşadığımız karmaşık hukuki sorunları, avukatlarımızın üstün gayretleriyle çözdük. Özellikle tahkim sürecindeki profesyonel yaklaşımları ve kazandırdıkları 2.5 milyon TL'lik alacak davası için minnettarım. Her aşamada bilgilendirildim ve sonuç beklediğimden de iyi oldu.",
+        "rating": 5
+      },
+      {
+        "name": "Ayşe Yılmaz",
+        "text": "Boşanma davamda hem hukuki hem de psikolojik destek aldım. Velayet ve nafaka konularında gösterdikleri hassasiyet, bu zor süreci daha kolay atlatmamı sağladı. Çocuklarımın geleceği için en doğru kararları almamda büyük rol oynadılar. Özellikle arabuluculuk sürecindeki yaklaşımları çok değerliydi.",
+        "rating": 5
+      },
+      {
+        "name": "Fatih Demir",
+        "text": "Sarıyer'deki gayrimenkulümün imar sorunu nedeniyle açtığımız davada, 3 yıl süren hukuki mücadelemizde yanımda oldular. Belediye ve ilgili kurumlarla yürüttükleri müzakereler ve mahkemedeki güçlü savunmaları sayesinde, mülkümün değerini korudum. Her zaman ulaşılabilir olmaları da ayrı bir güven verdi.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Arslan",
+        "text": "İş yerimde yaşadığım mobbing ve haksız fesih sürecinde aldığım hukuki destek mükemmeldi. Sadece tazminatımı almakla kalmadım, aynı zamanda manevi tazminat davamı da kazandım. Avukatımın duruşmalardaki profesyonel tavrı ve detaylı hazırlığı, karşı tarafı çok etkiledi. Kesinlikle tavsiye ediyorum.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Adalet Beklemez, Haklarınız İçin Bugün Harekete Geçin",
+    "ctaButton": "Ücretsiz Ön Görüşme",
+    "sectorData": {
+      "practiceAreas": [
+        {
+          "title": "Arabuluculuk Hizmetleri",
+          "description": "Mahkeme öncesi uyuşmazlık çözümünde uzman arabulucularımızla, ticari ve hukuki anlaşmazlıklarınızı hızlı ve dostane şekilde çözüme kavuşturuyoruz. Özellikle aile ve ticaret hukuku alanlarında sunduğumuz arabuluculuk hizmetiyle, zaman ve maliyet tasarrufu sağlıyoruz."
+        },
+        {
+          "title": "Yabancılar Hukuku",
+          "description": "Türkiye'de ikamet, çalışma izni, vatandaşlık başvuruları ve yabancıların gayrimenkul edinimi konularında kapsamlı danışmanlık sunuyoruz. Uluslararası evlilik ve boşanma davalarında da çok dilli ekibimizle profesyonel hizmet veriyoruz."
+        },
+        {
+          "title": "Bilişim ve Teknoloji Hukuku",
+          "description": "E-ticaret sözleşmeleri, veri güvenliği, KVKK uyumu ve siber suçlar konularında güncel mevzuata hakim uzmanlarımızla hizmet veriyoruz. Yazılım lisans anlaşmaları ve teknoloji transferi süreçlerinde de hukuki güvence sağlıyoruz."
+        },
+        {
+          "title": "Sağlık Hukuku",
+          "description": "Tıbbi malpraktis davaları, hasta hakları ve sağlık kurumlarının hukuki sorumlulukları konularında uzmanlaşmış ekibimizle yanınızdayız. Özel hastane ve kliniklere kurumsal hukuki danışmanlık hizmeti de sunuyoruz."
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Bireysel Danışmanlık",
+          "price": "12.500 TL/ay",
+          "description": "Kişisel hukuki ihtiyaçlarınız için ideal",
+          "features": [
+            "Aylık 4 saat hukuki danışmanlık",
+            "7/24 WhatsApp hukuki destek hattı",
+            "Sözleşme ve dilekçe hazırlama (3 adet/ay)",
+            "Ücretsiz ilk dava analizi"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Kurumsal Paket",
+          "price": "35.000 TL/ay",
+          "description": "İşletmeler ve KOBİ'ler için özel",
+          "features": [
+            "Sınırsız hukuki danışmanlık",
+            "Özel kurumsal avukat tahsisi",
+            "Tüm sözleşme incelemeleri dahil",
+            "Aylık risk analizi raporu",
+            "İcra takibi ve tahsilat desteği",
+            "Çalışan eğitimleri (KVKK, İş Hukuku)"
+          ],
+          "popular": true
+        },
+        {
+          "title": "Premium Hukuki Koruma",
+          "price": "Özel Fiyat",
+          "description": "Kapsamlı hukuki güvence isteyenler için",
+          "features": [
+            "Tüm hukuk alanlarında sınırsız danışmanlık",
+            "Kıdemli avukat ekibi tahsisi",
+            "Yurt içi ve yurt dışı hukuki temsil",
+            "Acil durum hukuki müdahale ekibi",
+            "Özel güvenlikli dosya yönetimi",
+            "VIP duruşma takip ve raporlama"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Hukuk Demo Örneği | avukat",
+    "description": "1995 yılından bu yana Sarıyer'de faaliyet gösteren hukuk büromuz, üç kuşak avukatın birikimi ile müvekkillerine hizmet vermektedir. İstanbul Barosu'na kayıtlı 1"
+  }
+}

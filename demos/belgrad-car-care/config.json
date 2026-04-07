@@ -1,0 +1,125 @@
+{
+  "business": {
+    "name": "Belgrad Car Care",
+    "sector": "restoran",
+    "slogan": "Bahçeköy'ün en güvenilir otopark hizmeti. 24 saat güvenlik kamerası, vale hizmeti ve detaylı araç bakım paketleriyle aracınızın değerini koruyoruz.",
+    "phone": "0505 925 37 11",
+    "address": "Bahçeköy, Sarıyer, İstanbul",
+    "email": "",
+    "googleRating": 4.9,
+    "reviewCount": 36,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#1a1a2e",
+    "secondaryColor": "#c9241a",
+    "accentColor": "#d4a574",
+    "fontFamily": "Inter",
+    "heroLayout": "centered",
+    "heroImage": "https://source.unsplash.com/1600x900/?restaurant%20interior%20elegant%20dining%20fine%20cuisine"
+  },
+  "content": {
+    "heroTitle": "Aracınız Güvende, Siz Rahat",
+    "heroSubtitle": "Bahçeköy'ün en güvenilir otopark hizmeti. 24 saat güvenlik kamerası, vale hizmeti ve detaylı araç bakım paketleriyle aracınızın değerini koruyoruz.",
+    "aboutText": "Belgrad Car Care, 2018 yılından beri Bahçeköy'de premium araç sahiplerine hizmet veren butik bir otopark işletmesidir. Google'da 4.9 puanımız ve 36 mutlu müşterimizin yorumları, kalitemizin en büyük kanıtıdır. Sadece park hizmeti değil, aracınızın tüm bakım ihtiyaçlarını karşılayan entegre çözümler sunuyoruz. Deneyimli ekibimiz, her aracı kendi aracımız gibi görür ve özenle ilgilenir. Bahçeköy'ün doğal güzelliği içinde, şehrin stresinden uzak konumumuzla hem güvenli hem de rahat bir park deneyimi yaşatıyoruz.",
+    "services": [
+      {
+        "title": "Premium Vale Hizmeti",
+        "description": "Profesyonel vale ekibimiz, aracınızı kapıdan alır ve güvenle park eder. Tüm vale personelimiz sigortalı ve eğitimlidir. Anahtarlarınız özel kasalarda saklanır, aracınız hiçbir zaman başkasının eline geçmez."
+      },
+      {
+        "title": "24 Saat Güvenlik",
+        "description": "360 derece kamera sistemi ve gece görüş teknolojisiyle otoparkımız 7/24 izlenir. Profesyonel güvenlik görevlilerimiz sürekli devriye gezer. Tüm giriş çıkışlar plaka tanıma sistemiyle kayıt altına alınır."
+      },
+      {
+        "title": "Detaylı İç-Dış Temizlik",
+        "description": "Özel temizlik ürünleri ve mikrofiber bezlerle aracınızın iç ve dış temizliği yapılır. Koltuk temizliği, torpido parlatma ve cam temizliği standart pakete dahildir. Motor yıkama ve buharlı temizlik opsiyonel olarak sunulur."
+      },
+      {
+        "title": "Lastik Hava Kontrolü",
+        "description": "Park süreniz boyunca lastiklerinizin hava basıncı düzenli kontrol edilir. Eksik hava tespit edildiğinde ücretsiz tamamlanır. Lastik aşınma durumu raporlanır ve gerektiğinde değişim önerisi sunulur."
+      },
+      {
+        "title": "Araç Bakım Takibi",
+        "description": "Aracınızın periyodik bakım zamanlarını takip eder, size hatırlatırız. Yağ, filtre, fren hidroliği seviyelerini kontrol ederiz. Anlaşmalı servislerimizde indirimli bakım imkanı sağlarız."
+      },
+      {
+        "title": "VIP Lounge Hizmeti",
+        "description": "Beklerken dinlenebileceğiniz lüks lounge alanımız mevcuttur. Ücretsiz Wi-Fi, kahve, çay ve atıştırmalık ikramlarımızdan faydalanabilirsiniz. Özel toplantı odamızı rezervasyon ile kullanabilirsiniz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe Yılmaz",
+        "text": "Mercedes S Serisi aracım için güvenebileceğim bir otopark arıyordum. Belgrad Car Care'i bulduğuma çok memnunum. Vale hizmeti muhteşem, personel son derece profesyonel. Aracımı her teslim aldığımda tertemiz ve bakımlı görüyorum. Fiyatlar da hizmet kalitesine göre çok makul.",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Öztürk",
+        "text": "2 yıldır düzenli müşteriyim. Range Rover'ımı gözüm kapalı emanet ediyorum. Lastik kontrolü sayesinde bir kez patlak lastikten kurtuldum. Güvenlik kameraları gerçekten 24 saat aktif, telefonumdan bile izleyebiliyorum. VIP lounge'da toplantılarımı yapabilmek büyük avantaj.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Demir",
+        "text": "Bahçeköy'de yaşıyorum ve günlük park ihtiyacım için kullanıyorum. Aylık abonelik sistemi çok avantajlı. Temizlik hizmeti beklediğimin çok üstünde, sanki detailing yaptırmış gibi oluyor. Çalışanlar güler yüzlü ve yardımsever. Kesinlikle tavsiye ederim.",
+        "rating": 5
+      },
+      {
+        "name": "Ali Kaya",
+        "text": "İş yerim Maslak'ta, sabahları aracımı bırakıp metroya biniyorum. Akşam döndüğümde aracım hazır bekliyor. Bir keresinde aküm bitmişti, hiç ücret almadan şarj ettiler. Bu kadar özenli bir hizmet başka yerde bulamazsınız. Google puanları gerçekten hak edilmiş.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Aracınızın Hak Ettiği Özeni Ertelemeyin",
+    "ctaButton": "Hemen Ara",
+    "sectorData": {
+      "pricing": [
+        {
+          "title": "Günlük Park",
+          "price": "250 TL/gün",
+          "description": "Kısa süreli park ihtiyaçları için ideal",
+          "features": [
+            "24 saat güvenlik kamerası",
+            "Kapalı park alanı",
+            "Plaka tanıma sistemi",
+            "Güvenlik görevlisi"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Aylık Premium",
+          "price": "3.500 TL/ay",
+          "description": "Düzenli kullanıcılar için en avantajlı paket",
+          "features": [
+            "Tüm günlük park özellikleri",
+            "Vale hizmeti",
+            "Ayda 2 iç-dış temizlik",
+            "Lastik hava kontrolü",
+            "VIP lounge erişimi",
+            "Araç bakım takibi"
+          ],
+          "popular": true
+        },
+        {
+          "title": "Kurumsal Paket",
+          "price": "Özel Fiyat",
+          "description": "5+ araç için özel fiyatlandırma",
+          "features": [
+            "Tüm premium özellikler",
+            "Özel vale ekibi",
+            "Haftalık temizlik",
+            "Öncelikli park yeri",
+            "Fatura kesim kolaylığı",
+            "7/24 destek hattı",
+            "Misafir araç kontenjanı"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Belgrad Car Care | otopark",
+    "description": "Belgrad Car Care, 2018 yılından beri Bahçeköy'de premium araç sahiplerine hizmet veren butik bir otopark işletmesidir. Google'da 4.9 puanımız ve 36 mutlu müşter"
+  }
+}

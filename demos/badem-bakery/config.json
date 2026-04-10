@@ -1,0 +1,156 @@
+{
+  "business": {
+    "name": "Badem Bakery",
+    "sector": "kafe",
+    "slogan": "Her sabah fırınlarımızdan çıkan taze ekmeklerimiz ve özenle hazırladığımız unlu mamullerimizle, geleneksel lezzetleri modern dokunuşlarla buluşturuyoruz.",
+    "phone": "",
+    "address": "",
+    "email": "",
+    "googleRating": 0,
+    "reviewCount": 0,
+    "googleMapsUrl": ""
+  },
+  "design": {
+    "primaryColor": "#c69f56",
+    "secondaryColor": "#2c1810",
+    "accentColor": "#6b4226",
+    "fontFamily": "Playfair Display",
+    "heroLayout": "centered",
+    "heroImage": "https://source.unsplash.com/1600x900/?coffee%20shop%20latte%20art%20artisan%20cafe%20interior%20cozy"
+  },
+  "content": {
+    "heroTitle": "Taze Ekmeğin Sıcaklığı, El Yapımı Lezzetler",
+    "heroSubtitle": "Her sabah fırınlarımızdan çıkan taze ekmeklerimiz ve özenle hazırladığımız unlu mamullerimizle, geleneksel lezzetleri modern dokunuşlarla buluşturuyoruz.",
+    "aboutText": "Badem Bakery, 2015 yılında küçük bir fırın olarak başladığı yolculuğunda, bugün İstanbul'un en sevilen artisan fırınlarından biri haline geldi. Ustalarımız, her gün şafak vakti işe başlayarak, doğal mayalı ekmeklerimizi özenle hazırlar. Sadece organik un ve doğal malzemeler kullanarak, hem sağlıklı hem de lezzetli ürünler sunmayı ilke edindik. Fransa'da eğitim almış pasta şeflerimiz, klasik Fransız pastacılığını Türk damak tadıyla harmanlayarak benzersiz tatlar yaratıyor. Müşterilerimizin güler yüzlü karşılandığı, taze pişmiş ekmek kokusunun hiç eksik olmadığı sıcak atmosferimizle, sadece bir fırın değil, mahallenizin vazgeçilmez buluşma noktasıyız.",
+    "services": [
+      {
+        "title": "Artisan Ekmekler",
+        "description": "Doğal maya ile 24 saat dinlendirdiğimiz hamurlarımızdan ürettiğimiz tam buğday, çavdar ve zeytinli ekmeklerimiz, geleneksel taş fırında pişirilir. Her lokması sağlık ve lezzet dolu ekmeklerimiz, sofranızın baş tacı olmaya aday. Glutensiz ve vegan seçeneklerimizle herkesin damak tadına hitap ediyoruz."
+      },
+      {
+        "title": "Taze Pasta ve Tatlılar",
+        "description": "Belçika çikolatasıyla hazırladığımız özel pasta çeşitlerimiz, mevsim meyvelerini kullandığımız tart ve cheesecake'lerimiz, el yapımı makaronlarımız ve geleneksel Türk tatlılarımız her gün taze olarak hazırlanır. Doğum günü ve özel gün pastalarınızı, istediğiniz tasarımda özenle hazırlıyoruz. Şekersiz ve glütensiz alternatiflerimiz de mevcut."
+      },
+      {
+        "title": "Gurme Sandviçler",
+        "description": "Kendi üretimimiz olan taze ekmeklerimizle hazırladığımız gurme sandviçlerimiz, öğle yemeği için ideal bir seçenek. İtalyan salamları, taze sebzeler ve özel soslarımızla hazırlanan sandviçlerimiz, hem doyurucu hem de sağlıklı. Vejetaryen ve vegan seçeneklerimizle herkesin tercihine uygun alternatifler sunuyoruz."
+      },
+      {
+        "title": "Kahvaltı Menüsü",
+        "description": "Hafta sonları özel serpme kahvaltımız ve hafta içi her gün sunduğumuz kahvaltı tabağımızla güne enerjik başlayın. Kendi üretimimiz olan reçeller, tereyağlı kroasanlar, taze sıkılmış meyve suları ve özel harmanımız kahvelerle zengin bir kahvaltı deneyimi yaşatıyoruz. Glutensiz kahvaltı seçeneklerimiz de bulunmaktadır."
+      },
+      {
+        "title": "Özel Gün Siparişleri",
+        "description": "Düğün, nişan, doğum günü ve kurumsal etkinlikleriniz için özel tasarım pasta ve kurabiye siparişlerinizi alıyoruz. Butik kurabiyelerimiz, makaron kulelerimiz ve özel tasarım pastalarımızla etkinliklerinize tat katıyoruz. Toplu siparişlerde özel fiyatlandırma ve teslimat hizmeti sunuyoruz."
+      },
+      {
+        "title": "Catering Hizmetleri",
+        "description": "Kurumsal toplantılarınız, özel davetleriniz ve etkinlikleriniz için profesyonel catering hizmeti veriyoruz. Mini sandviçler, kanapeler, tatlı büfesi ve içecek servisi ile misafirlerinizi ağırlıyoruz. Menülerimizi etkinliğinizin konseptine ve bütçenize göre özelleştiriyoruz. Teslimat ve sunum ekipmanları hizmetimize dahildir."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe Yıldırım",
+        "text": "Badem Bakery'nin ekşi mayalı ekmeğini tattığımdan beri başka ekmek yiyemiyorum. Çocuklarım da buranın çikolatalı kroasanlarına bayılıyor. Personel her zaman güler yüzlü ve yardımsever. Kızımın doğum günü pastasını da buradan aldık, hem görüntüsü hem tadı muhteşemdi. Kesinlikle mahallemizdeki en iyi fırın.",
+        "rating": 5
+      },
+      {
+        "name": "Mehmet Kaya",
+        "text": "İş yerimize haftada iki kez Badem Bakery'den kahvaltılık sipariş veriyoruz. Teslimatları her zaman zamanında ve ürünler çok taze. Özellikle zeytinli ekmekleri ve cevizli kurabiyeleri favorimiz. Kurumsal etkinliğimiz için aldığımız catering hizmeti de beklentilerimizin üzerindeydi. Herkese tavsiye ederim.",
+        "rating": 5
+      },
+      {
+        "name": "Zeynep Aksoy",
+        "text": "Gluten hassasiyetim olduğu için çoğu fırından alışveriş yapamıyordum. Badem Bakery'nin glutensiz ürün çeşitliliği beni çok mutlu etti. Glutensiz ekmekleri gerçekten lezzetli ve normal ekmekten farkı yok. Şekersiz tatlı alternatifleri de harika. Artık tatlı krizlerimde endişelenmeden buraya uğruyorum.",
+        "rating": 5
+      },
+      {
+        "name": "Emre Demir",
+        "text": "Hafta sonu kahvaltıları için mükemmel bir mekan. Serpme kahvaltıları çok doyurucu ve her şey çok taze. Eşimle buraya gelmeyi çok seviyoruz. Bazen sadece bir kahve ve taze pasta için de uğruyoruz. Fiyatlar da gayet makul. Tek eksik daha geniş oturma alanı olsa daha iyi olurdu ama yine de harika bir yer.",
+        "rating": 4
+      }
+    ],
+    "ctaText": "Taze Pişmiş Lezzetlerimizi Keşfedin",
+    "ctaButton": "Hemen Sipariş Ver",
+    "sectorData": {
+      "menu": [
+        {
+          "title": "Ekşi Mayalı Tam Buğday Ekmek",
+          "description": "24 saat mayalanan özel hamurumuzdan, taş fırında pişirilmiş, dışı çıtır içi yumuşak",
+          "price": "45 TL"
+        },
+        {
+          "title": "Çikolatalı Croissant",
+          "description": "Belçika çikolatasıyla hazırlanan, 64 katlı tereyağlı hamurdan el yapımı Fransız kroasan",
+          "price": "38 TL"
+        },
+        {
+          "title": "Mevsim Meyveli Cheesecake",
+          "description": "Philadelphia krem peyniri ve taze mevsim meyveleriyle hazırlanan, hafif ve kremalı",
+          "price": "85 TL"
+        },
+        {
+          "title": "Gurme Ton Balıklı Sandviç",
+          "description": "Çok tahıllı ekmeğimizde, ton balığı, roka, domates ve özel hardal sosumuzla",
+          "price": "95 TL"
+        },
+        {
+          "title": "Artisan Pizza Dilimi",
+          "description": "İnce hamur, mozzarella, taze fesleğen ve domates sosuyla İtalyan usulü",
+          "price": "65 TL"
+        },
+        {
+          "title": "Özel Harman Kahve & Kurabiye",
+          "description": "Colombia ve Ethiopia çekirdeklerinden özel harmanımız, ev yapımı kurabiye eşliğinde",
+          "price": "58 TL"
+        }
+      ],
+      "pricing": [
+        {
+          "title": "Bireysel Paket",
+          "price": "450 TL/ay",
+          "description": "Haftalık ekmek ve pasta ihtiyacınız için ideal",
+          "features": [
+            "Haftada 3 adet ekmek seçimi",
+            "Ayda 2 pasta dilimi hediye",
+            "%10 indirimli alışveriş",
+            "Doğum günü sürprizi"
+          ],
+          "popular": false
+        },
+        {
+          "title": "Aile Paketi",
+          "price": "850 TL/ay",
+          "description": "4 kişilik aileler için tasarlandı",
+          "features": [
+            "Haftada 7 adet ekmek seçimi",
+            "Ayda 4 pasta dilimi hediye",
+            "%15 indirimli alışveriş",
+            "Ücretsiz eve teslimat",
+            "Özel gün indirimleri",
+            "Yeni ürün tadımları"
+          ],
+          "popular": true
+        },
+        {
+          "title": "Kurumsal Paket",
+          "price": "Özel Fiyat",
+          "description": "Ofisler ve işletmeler için özel çözümler",
+          "features": [
+            "Sınırsız ürün seçimi",
+            "%25 kurumsal indirim",
+            "Günlük teslimat hizmeti",
+            "Özel menü tasarımı",
+            "Faturalı ödeme kolaylığı",
+            "Catering hizmetlerinde öncelik"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  },
+  "meta": {
+    "title": "Badem Bakery | kafe",
+    "description": "Badem Bakery, 2015 yılında küçük bir fırın olarak başladığı yolculuğunda, bugün İstanbul'un en sevilen artisan fırınlarından biri haline geldi. Ustalarımız, her"
+  }
+}
